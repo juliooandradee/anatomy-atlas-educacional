@@ -1,0 +1,561 @@
+{
+  "schema_version": 1,
+  "subject": "s0591",
+  "shape": [
+    121,
+    159,
+    212
+  ],
+  "spacing_mm": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "center_mm": [
+    90.0,
+    118.5,
+    158.25
+  ],
+  "affine_ras": [
+    [
+      1.5,
+      0.0,
+      0.0,
+      -78.59765625
+    ],
+    [
+      0.0,
+      1.5,
+      0.0,
+      127.90234375
+    ],
+    [
+      0.0,
+      0.0,
+      1.5,
+      -357.5
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_affine_ras": [
+    [
+      1.5,
+      0.0,
+      0.0,
+      -162.59765625
+    ],
+    [
+      0.0,
+      1.5,
+      0.0,
+      12.40234375
+    ],
+    [
+      0.0,
+      0.0,
+      1.5,
+      -827.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_crop_voxel": [
+    [
+      56,
+      77,
+      313
+    ],
+    [
+      177,
+      236,
+      525
+    ]
+  ],
+  "storage": "C-order; index = i*nj*nk + j*nk + k",
+  "ct_dtype": "int16-le",
+  "window": {
+    "width": 80,
+    "level": 40
+  },
+  "default_window": "brain",
+  "default_id": 1,
+  "organs": [
+    {
+      "id": 1,
+      "name": "brain",
+      "display_name": "Encéfalo",
+      "latin": "Encephalon",
+      "color": "#cf98c5",
+      "group": "Encéfalo e crânio",
+      "note": "Ajuste a janela de TC para comparar o contorno segmentado com o exame.",
+      "centroid": [
+        58.25722467773527,
+        65.77180478500303,
+        146.87524227538893
+      ],
+      "anchor": [
+        58,
+        66,
+        147
+      ],
+      "volume_ml": 1316.43,
+      "faces": 30000,
+      "bounds_voxel": [
+        [
+          16,
+          19,
+          96
+        ],
+        [
+          103,
+          121,
+          190
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "skull",
+      "display_name": "Crânio",
+      "latin": "Cranium",
+      "color": "#e8d8b9",
+      "group": "Encéfalo e crânio",
+      "note": "Ajuste a janela de TC para comparar o contorno segmentado com o exame.",
+      "centroid": [
+        58.794091078574205,
+        78.01963105758622,
+        133.36757781117745
+      ],
+      "anchor": [
+        61,
+        84,
+        131
+      ],
+      "volume_ml": 878.0,
+      "faces": 30000,
+      "bounds_voxel": [
+        [
+          12,
+          12,
+          59
+        ],
+        [
+          108,
+          146,
+          199
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "name": "vertebrae_C1",
+      "display_name": "C1 · Atlas",
+      "latin": "Vertebra cervicalis 1",
+      "color": "#dbbaa1",
+      "group": "Coluna cervical",
+      "note": "Ajuste a janela de TC para comparar o contorno segmentado com o exame.",
+      "centroid": [
+        67.19968906546899,
+        79.11418206944205,
+        91.88132665399897
+      ],
+      "anchor": [
+        73,
+        82,
+        92
+      ],
+      "volume_ml": 19.54,
+      "faces": 9668,
+      "bounds_voxel": [
+        [
+          37,
+          60,
+          81
+        ],
+        [
+          97,
+          93,
+          102
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "name": "vertebrae_C2",
+      "display_name": "C2 · Áxis",
+      "latin": "Vertebra cervicalis 2",
+      "color": "#d8bea9",
+      "group": "Coluna cervical",
+      "note": "Ajuste a janela de TC para comparar o contorno segmentado com o exame.",
+      "centroid": [
+        67.63554586343191,
+        75.6022897642088,
+        80.89805097451274
+      ],
+      "anchor": [
+        68,
+        77,
+        81
+      ],
+      "volume_ml": 24.76,
+      "faces": 10262,
+      "bounds_voxel": [
+        [
+          48,
+          50,
+          69
+        ],
+        [
+          91,
+          88,
+          98
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "name": "vertebrae_C3",
+      "display_name": "C3 · Vértebra cervical",
+      "latin": "Vertebra cervicalis 3",
+      "color": "#d2c4ae",
+      "group": "Coluna cervical",
+      "note": "Ajuste a janela de TC para comparar o contorno segmentado com o exame.",
+      "centroid": [
+        71.52086360805481,
+        72.92817106082624,
+        69.85509653311189
+      ],
+      "anchor": [
+        72,
+        73,
+        70
+      ],
+      "volume_ml": 16.26,
+      "faces": 8198,
+      "bounds_voxel": [
+        [
+          51,
+          56,
+          58
+        ],
+        [
+          92,
+          84,
+          80
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "name": "vertebrae_C4",
+      "display_name": "C4 · Vértebra cervical",
+      "latin": "Vertebra cervicalis 4",
+      "color": "#c5c9b4",
+      "group": "Coluna cervical",
+      "note": "Ajuste a janela de TC para comparar o contorno segmentado com o exame.",
+      "centroid": [
+        72.51771172638436,
+        68.25040716612378,
+        60.675285016286644
+      ],
+      "anchor": [
+        73,
+        68,
+        61
+      ],
+      "volume_ml": 16.58,
+      "faces": 8708,
+      "bounds_voxel": [
+        [
+          51,
+          48,
+          50
+        ],
+        [
+          93,
+          82,
+          69
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "name": "vertebrae_C5",
+      "display_name": "C5 · Vértebra cervical",
+      "latin": "Vertebra cervicalis 5",
+      "color": "#bac9c5",
+      "group": "Coluna cervical",
+      "note": "Ajuste a janela de TC para comparar o contorno segmentado com o exame.",
+      "centroid": [
+        72.88438095238095,
+        67.04514285714286,
+        51.285714285714285
+      ],
+      "anchor": [
+        73,
+        67,
+        51
+      ],
+      "volume_ml": 17.72,
+      "faces": 9502,
+      "bounds_voxel": [
+        [
+          52,
+          45,
+          40
+        ],
+        [
+          93,
+          81,
+          60
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "name": "vertebrae_C6",
+      "display_name": "C6 · Vértebra cervical",
+      "latin": "Vertebra cervicalis 6",
+      "color": "#b6c0d4",
+      "group": "Coluna cervical",
+      "note": "Ajuste a janela de TC para comparar o contorno segmentado com o exame.",
+      "centroid": [
+        74.17276387187117,
+        62.75074391738141,
+        43.53929634167688
+      ],
+      "anchor": [
+        74,
+        64,
+        43
+      ],
+      "volume_ml": 19.28,
+      "faces": 11040,
+      "bounds_voxel": [
+        [
+          54,
+          35,
+          32
+        ],
+        [
+          93,
+          79,
+          55
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "name": "vertebrae_C7",
+      "display_name": "C7 · Vértebra cervical",
+      "latin": "Vertebra cervicalis 7",
+      "color": "#c0b4d1",
+      "group": "Coluna cervical",
+      "note": "Ajuste a janela de TC para comparar o contorno segmentado com o exame.",
+      "centroid": [
+        74.55766744246186,
+        56.70881820532713,
+        35.387509697439874
+      ],
+      "anchor": [
+        74,
+        59,
+        33
+      ],
+      "volume_ml": 26.1,
+      "faces": 12152,
+      "bounds_voxel": [
+        [
+          44,
+          28,
+          21
+        ],
+        [
+          103,
+          73,
+          50
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "name": "spinal_cord",
+      "display_name": "Medula espinal · cervical",
+      "latin": "Medulla spinalis",
+      "color": "#e7c08e",
+      "group": "Coluna cervical",
+      "note": "Apenas o segmento incluído neste recorte cervical é exibido.",
+      "centroid": [
+        73.17819322787292,
+        56.048895280428816,
+        47.80350372597725
+      ],
+      "anchor": [
+        73,
+        56,
+        47
+      ],
+      "volume_ml": 25.82,
+      "faces": 10424,
+      "bounds_voxel": [
+        [
+          61,
+          22,
+          0
+        ],
+        [
+          83,
+          79,
+          99
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "name": "thyroid_gland",
+      "display_name": "Tireoide",
+      "latin": "Glandula thyroidea",
+      "color": "#c798d4",
+      "group": "Pescoço",
+      "note": "Ajuste a janela de TC para comparar o contorno segmentado com o exame.",
+      "centroid": [
+        73.83687943262412,
+        89.678916827853,
+        24.954223081882656
+      ],
+      "anchor": [
+        76,
+        94,
+        23
+      ],
+      "volume_ml": 15.7,
+      "faces": 6404,
+      "bounds_voxel": [
+        [
+          54,
+          80,
+          12
+        ],
+        [
+          90,
+          97,
+          42
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "name": "trachea",
+      "display_name": "Traqueia · segmento cervical",
+      "latin": "Trachea",
+      "color": "#94c8cb",
+      "group": "Pescoço",
+      "note": "Apenas o segmento incluído neste recorte cervical é exibido.",
+      "centroid": [
+        75.41223969400765,
+        78.75718940359825,
+        15.305000708315626
+      ],
+      "anchor": [
+        75,
+        79,
+        15
+      ],
+      "volume_ml": 23.82,
+      "faces": 6548,
+      "bounds_voxel": [
+        [
+          65,
+          60,
+          0
+        ],
+        [
+          87,
+          97,
+          32
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "name": "common_carotid_artery_left",
+      "display_name": "Carótida comum esquerda",
+      "latin": "Arteria carotis communis",
+      "color": "#e889a7",
+      "group": "Pescoço",
+      "note": "Apenas o segmento incluído neste recorte cervical é exibido.",
+      "centroid": [
+        55.623337363966144,
+        77.5459492140266,
+        30.521765417170496
+      ],
+      "anchor": [
+        56,
+        78,
+        31
+      ],
+      "volume_ml": 5.58,
+      "faces": 3552,
+      "bounds_voxel": [
+        [
+          42,
+          65,
+          0
+        ],
+        [
+          64,
+          84,
+          59
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "name": "common_carotid_artery_right",
+      "display_name": "Carótida comum direita",
+      "latin": "Arteria carotis communis",
+      "color": "#de5e82",
+      "group": "Pescoço",
+      "note": "Apenas o segmento incluído neste recorte cervical é exibido.",
+      "centroid": [
+        85.12724757952974,
+        83.60235131396958,
+        29.676348547717843
+      ],
+      "anchor": [
+        86,
+        82,
+        30
+      ],
+      "volume_ml": 4.88,
+      "faces": 3456,
+      "bounds_voxel": [
+        [
+          70,
+          77,
+          3
+        ],
+        [
+          91,
+          91,
+          55
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "url": "https://zenodo.org/records/10047263",
+    "attribution": "TotalSegmentator · Wasserthal et al. · University Hospital Basel",
+    "license": "CC BY 4.0"
+  },
+  "coverage": "Cabeça e pescoço do caso s0591. Vasos, medula e traqueia limitados ao recorte cervical; segmentação automática para exploração educacional."
+}

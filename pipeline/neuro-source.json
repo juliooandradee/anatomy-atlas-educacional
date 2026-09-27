@@ -1,0 +1,41 @@
+{
+  "repository": "https://api.github.com/repos/templateflow/tpl-MNI152NLin2009cSym",
+  "commit": "69a5e68d2b276b1e46f701892ac630397f56a741",
+  "files": [
+    {
+      "file": "tpl-MNI152NLin2009cSym_atlas-CerebA_dseg.tsv",
+      "url": "https://raw.githubusercontent.com/templateflow/tpl-MNI152NLin2009cSym/69a5e68d2b276b1e46f701892ac630397f56a741/tpl-MNI152NLin2009cSym_atlas-CerebA_dseg.tsv",
+      "sha256": "cf0332a1c2601b5dd97b2f70423b064c762630d02052629f7112789f2fb6d2f7",
+      "bytes": 5614,
+      "git_annex_verified": false
+    },
+    {
+      "file": "tpl-MNI152NLin2009cSym_res-1_atlas-CerebrA_dseg.nii.gz",
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cSym/tpl-MNI152NLin2009cSym_res-1_atlas-CerebrA_dseg.nii.gz",
+      "sha256": "c05df93e85b8f1c1446e56f45f0b6a28fdf6e5c8263ea8f365617254bf79ecbf",
+      "bytes": 564070,
+      "git_annex_verified": true
+    },
+    {
+      "file": "tpl-MNI152NLin2009cSym_res-1_T1w.nii.gz",
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cSym/tpl-MNI152NLin2009cSym_res-1_T1w.nii.gz",
+      "sha256": "317e112c49d086b971e4a26cba853b041ee210faf750a6fe02e04f15909b6b6b",
+      "bytes": 4589929,
+      "git_annex_verified": true
+    },
+    {
+      "file": "tpl-MNI152NLin2009cSym_res-1_T2w.nii.gz",
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cSym/tpl-MNI152NLin2009cSym_res-1_T2w.nii.gz",
+      "sha256": "1c8750fabbbe132aa582eec9f923ed7493da66be6d5ec3902caf6eefe6a2bb5a",
+      "bytes": 4362698,
+      "git_annex_verified": true
+    },
+    {
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/templateflow/tpl-MNI152NLin2009cSym/69a5e68d2b276b1e46f701892ac630397f56a741/LICENSE",
+      "sha256": "5915d16f84d99c3cedc8290b09da72f6f92e5dde1ba1c9859ee186aa952b66a4",
+      "bytes": 676,
+      "git_annex_verified": false
+    }
+  ]
+}

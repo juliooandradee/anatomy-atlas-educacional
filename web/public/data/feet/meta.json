@@ -1,0 +1,1947 @@
+{
+  "schema_version": 1,
+  "subject": "BoneHub 002 / VSD 006",
+  "shape": [
+    254,
+    184,
+    212
+  ],
+  "spacing_mm": [
+    1.25,
+    1.25,
+    1.25
+  ],
+  "center_mm": [
+    158.125,
+    114.375,
+    131.875
+  ],
+  "affine_ras": [
+    [
+      1.25,
+      0.0,
+      0.0,
+      -181.15234375
+    ],
+    [
+      0.0,
+      1.25,
+      0.0,
+      -3.97265625
+    ],
+    [
+      0.0,
+      0.0,
+      1.25,
+      119.69999694824219
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_affine_ras": [
+    [
+      0.9765625,
+      0.0,
+      0.0,
+      -249.51171875
+    ],
+    [
+      0.0,
+      0.9765625,
+      0.0,
+      -106.51171875
+    ],
+    [
+      0.0,
+      0.0,
+      0.6997554898262024,
+      119.69999694824219
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_crop_voxel": [
+    [
+      70,
+      105,
+      0
+    ],
+    [
+      394,
+      339,
+      377
+    ]
+  ],
+  "storage": "C-order; index = i*nj*nk + j*nk + k",
+  "ct_dtype": "int16-le",
+  "window": {
+    "width": 1800,
+    "level": 400
+  },
+  "default_window": "bone",
+  "default_id": 14,
+  "organs": [
+    {
+      "id": 8,
+      "name": "tibia_l",
+      "display_name": "Tíbia esquerda · distal",
+      "latin": "Tibia",
+      "group": "Pernas",
+      "color": "#dfbba4",
+      "note": "Este módulo mostra a porção distal junto ao tornozelo. O osso completo está em “Coxas e pernas”.",
+      "centroid": [
+        73.53909293266555,
+        76.80447968836951,
+        178.04368391764052
+      ],
+      "anchor": [
+        74,
+        77,
+        178
+      ],
+      "volume_ml": 70.2,
+      "faces": 18636,
+      "bounds_voxel": [
+        [
+          52,
+          57,
+          148
+        ],
+        [
+          95,
+          93,
+          210
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "name": "tibia_r",
+      "display_name": "Tíbia direita · distal",
+      "latin": "Tibia",
+      "group": "Pernas",
+      "color": "#dfbba4",
+      "note": "Este módulo mostra a porção distal junto ao tornozelo. O osso completo está em “Coxas e pernas”.",
+      "centroid": [
+        187.9683346963811,
+        64.55804027806174,
+        169.50575035780005
+      ],
+      "anchor": [
+        188,
+        65,
+        170
+      ],
+      "volume_ml": 76.42,
+      "faces": 20212,
+      "bounds_voxel": [
+        [
+          168,
+          44,
+          136
+        ],
+        [
+          206,
+          82,
+          210
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "name": "fibula_l",
+      "display_name": "Fíbula esquerda · distal",
+      "latin": "Fibula",
+      "group": "Pernas",
+      "color": "#c1b5dd",
+      "note": "Este módulo mostra a porção distal junto ao tornozelo. O osso completo está em “Coxas e pernas”.",
+      "centroid": [
+        54.72165555119655,
+        63.4281090623774,
+        171.15976853668104
+      ],
+      "anchor": [
+        55,
+        63,
+        171
+      ],
+      "volume_ml": 19.91,
+      "faces": 8852,
+      "bounds_voxel": [
+        [
+          47,
+          54,
+          142
+        ],
+        [
+          63,
+          76,
+          210
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "name": "fibula_r",
+      "display_name": "Fíbula direita · distal",
+      "latin": "Fibula",
+      "group": "Pernas",
+      "color": "#c1b5dd",
+      "note": "Este módulo mostra a porção distal junto ao tornozelo. O osso completo está em “Coxas e pernas”.",
+      "centroid": [
+        198.45875251509054,
+        44.77639751552795,
+        161.68008048289738
+      ],
+      "anchor": [
+        198,
+        45,
+        162
+      ],
+      "volume_ml": 22.33,
+      "faces": 10380,
+      "bounds_voxel": [
+        [
+          189,
+          33,
+          128
+        ],
+        [
+          208,
+          55,
+          210
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "name": "talus_l",
+      "display_name": "Tálus esquerdo",
+      "latin": "Talus",
+      "group": "Tarso",
+      "color": "#e19fb0",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        70.13528477949433,
+        80.9961280830139,
+        141.1496108723429
+      ],
+      "anchor": [
+        70,
+        81,
+        141
+      ],
+      "volume_ml": 50.44,
+      "faces": 16080,
+      "bounds_voxel": [
+        [
+          52,
+          52,
+          118
+        ],
+        [
+          87,
+          103,
+          159
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "name": "talus_r",
+      "display_name": "Tálus direito",
+      "latin": "Talus",
+      "group": "Tarso",
+      "color": "#e19fb0",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        190.6623877842101,
+        65.23764577565233,
+        127.5904018793523
+      ],
+      "anchor": [
+        191,
+        65,
+        128
+      ],
+      "volume_ml": 46.56,
+      "faces": 14664,
+      "bounds_voxel": [
+        [
+          171,
+          42,
+          105
+        ],
+        [
+          208,
+          83,
+          146
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "name": "calcaneus_l",
+      "display_name": "Calcâneo esquerdo",
+      "latin": "Calcaneus",
+      "group": "Tarso",
+      "color": "#b7c69e",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        74.87060253599009,
+        51.36879111450091,
+        128.73338735818476
+      ],
+      "anchor": [
+        75,
+        51,
+        129
+      ],
+      "volume_ml": 81.95,
+      "faces": 22228,
+      "bounds_voxel": [
+        [
+          50,
+          20,
+          107
+        ],
+        [
+          97,
+          85,
+          151
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "name": "calcaneus_r",
+      "display_name": "Calcâneo direito",
+      "latin": "Calcaneus",
+      "group": "Tarso",
+      "color": "#b7c69e",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        173.263809613661,
+        40.5039388650408,
+        116.22305297419689
+      ],
+      "anchor": [
+        173,
+        41,
+        116
+      ],
+      "volume_ml": 82.81,
+      "faces": 22600,
+      "bounds_voxel": [
+        [
+          145,
+          15,
+          91
+        ],
+        [
+          205,
+          72,
+          140
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "name": "navicular_l",
+      "display_name": "Navicular esquerdo",
+      "latin": "Os naviculare",
+      "group": "Tarso",
+      "color": "#9fc7d0",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        70.56796923716483,
+        98.09914778632302,
+        116.98389108293495
+      ],
+      "anchor": [
+        71,
+        98,
+        117
+      ],
+      "volume_ml": 18.79,
+      "faces": 8652,
+      "bounds_voxel": [
+        [
+          52,
+          85,
+          106
+        ],
+        [
+          91,
+          109,
+          132
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "name": "navicular_r",
+      "display_name": "Navicular direito",
+      "latin": "Os naviculare",
+      "group": "Tarso",
+      "color": "#9fc7d0",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        190.64511189634865,
+        81.68810365135454,
+        101.3032979976443
+      ],
+      "anchor": [
+        191,
+        82,
+        101
+      ],
+      "volume_ml": 16.58,
+      "faces": 7260,
+      "bounds_voxel": [
+        [
+          171,
+          69,
+          90
+        ],
+        [
+          209,
+          93,
+          114
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "name": "cuboid_l",
+      "display_name": "Cuboide esquerdo",
+      "latin": "Os cuboideum",
+      "group": "Tarso",
+      "color": "#d5bb91",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        54.93539365123759,
+        79.0509019717522,
+        103.93301636134807
+      ],
+      "anchor": [
+        55,
+        79,
+        104
+      ],
+      "volume_ml": 13.97,
+      "faces": 5872,
+      "bounds_voxel": [
+        [
+          43,
+          66,
+          89
+        ],
+        [
+          69,
+          88,
+          117
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "name": "cuboid_r",
+      "display_name": "Cuboide direito",
+      "latin": "Os cuboideum",
+      "group": "Tarso",
+      "color": "#d5bb91",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        195.72226677358995,
+        59.77893611333868,
+        86.29925153702219
+      ],
+      "anchor": [
+        196,
+        60,
+        86
+      ],
+      "volume_ml": 14.61,
+      "faces": 6152,
+      "bounds_voxel": [
+        [
+          185,
+          48,
+          71
+        ],
+        [
+          207,
+          70,
+          102
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "name": "medial_cuneiform_l",
+      "display_name": "Cuneiforme medial esquerdo",
+      "latin": "Os cuneiforme mediale",
+      "group": "Tarso",
+      "color": "#d7a7c4",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        65.45514898872935,
+        111.31140960321136,
+        99.61247491122434
+      ],
+      "anchor": [
+        65,
+        111,
+        100
+      ],
+      "volume_ml": 12.65,
+      "faces": 5980,
+      "bounds_voxel": [
+        [
+          47,
+          98,
+          87
+        ],
+        [
+          78,
+          124,
+          112
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "name": "medial_cuneiform_r",
+      "display_name": "Cuneiforme medial direito",
+      "latin": "Os cuneiforme mediale",
+      "group": "Tarso",
+      "color": "#d7a7c4",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        192.7583970734952,
+        91.90355836381777,
+        83.68224143664783
+      ],
+      "anchor": [
+        193,
+        92,
+        84
+      ],
+      "volume_ml": 11.75,
+      "faces": 5372,
+      "bounds_voxel": [
+        [
+          181,
+          80,
+          74
+        ],
+        [
+          208,
+          102,
+          95
+        ]
+      ]
+    },
+    {
+      "id": 22,
+      "name": "intermediate_cuneiform_l",
+      "display_name": "Cuneiforme intermédio esquerdo",
+      "latin": "Os cuneiforme intermedium",
+      "group": "Tarso",
+      "color": "#bdc8dd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        55.61160541586074,
+        105.7284332688588,
+        106.80309477756286
+      ],
+      "anchor": [
+        56,
+        106,
+        107
+      ],
+      "volume_ml": 5.05,
+      "faces": 3204,
+      "bounds_voxel": [
+        [
+          45,
+          97,
+          97
+        ],
+        [
+          65,
+          115,
+          116
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "name": "intermediate_cuneiform_r",
+      "display_name": "Cuneiforme intermédio direito",
+      "latin": "Os cuneiforme intermedium",
+      "group": "Tarso",
+      "color": "#bdc8dd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        204.01144164759725,
+        85.22196796338673,
+        87.10564454614799
+      ],
+      "anchor": [
+        204,
+        85,
+        87
+      ],
+      "volume_ml": 5.12,
+      "faces": 3036,
+      "bounds_voxel": [
+        [
+          193,
+          78,
+          78
+        ],
+        [
+          213,
+          94,
+          96
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "name": "lateral_cuneiform_l",
+      "display_name": "Cuneiforme lateral esquerdo",
+      "latin": "Os cuneiforme laterale",
+      "group": "Tarso",
+      "color": "#e6c6a7",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        52.93023255813954,
+        94.31036462819408,
+        103.83175423485501
+      ],
+      "anchor": [
+        53,
+        94,
+        104
+      ],
+      "volume_ml": 6.8,
+      "faces": 3688,
+      "bounds_voxel": [
+        [
+          42,
+          88,
+          94
+        ],
+        [
+          65,
+          103,
+          115
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "name": "lateral_cuneiform_r",
+      "display_name": "Cuneiforme lateral direito",
+      "latin": "Os cuneiforme laterale",
+      "group": "Tarso",
+      "color": "#e6c6a7",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        202.41158620689654,
+        73.4951724137931,
+        84.94289655172413
+      ],
+      "anchor": [
+        202,
+        73,
+        85
+      ],
+      "volume_ml": 7.08,
+      "faces": 3728,
+      "bounds_voxel": [
+        [
+          190,
+          66,
+          75
+        ],
+        [
+          213,
+          80,
+          96
+        ]
+      ]
+    },
+    {
+      "id": 26,
+      "name": "metatarsal_1_l",
+      "display_name": "1º metatarso esquerdo",
+      "latin": "Os metatarsale 1",
+      "group": "Metatarso",
+      "color": "#d7b0ce",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        61.018718431217195,
+        132.81548974943053,
+        75.84074477567594
+      ],
+      "anchor": [
+        61,
+        133,
+        76
+      ],
+      "volume_ml": 19.72,
+      "faces": 9136,
+      "bounds_voxel": [
+        [
+          50,
+          109,
+          53
+        ],
+        [
+          72,
+          155,
+          97
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "name": "metatarsal_1_r",
+      "display_name": "1º metatarso direito",
+      "latin": "Os metatarsale 1",
+      "group": "Metatarso",
+      "color": "#d7b0ce",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        192.44121212121212,
+        109.18909090909091,
+        56.655151515151516
+      ],
+      "anchor": [
+        192,
+        109,
+        57
+      ],
+      "volume_ml": 19.34,
+      "faces": 9092,
+      "bounds_voxel": [
+        [
+          181,
+          88,
+          33
+        ],
+        [
+          205,
+          129,
+          79
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "name": "metatarsal_2_l",
+      "display_name": "2º metatarso esquerdo",
+      "latin": "Os metatarsale 2",
+      "group": "Metatarso",
+      "color": "#a9c4db",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        48.04412324077596,
+        119.71186763027767,
+        79.20083682008368
+      ],
+      "anchor": [
+        48,
+        120,
+        79
+      ],
+      "volume_ml": 10.27,
+      "faces": 6616,
+      "bounds_voxel": [
+        [
+          40,
+          100,
+          49
+        ],
+        [
+          58,
+          140,
+          103
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "name": "metatarsal_2_r",
+      "display_name": "2º metatarso direito",
+      "latin": "Os metatarsale 2",
+      "group": "Metatarso",
+      "color": "#a9c4db",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        204.90352303523036,
+        96.9286359530262,
+        57.285998193315265
+      ],
+      "anchor": [
+        205,
+        97,
+        57
+      ],
+      "volume_ml": 10.81,
+      "faces": 6696,
+      "bounds_voxel": [
+        [
+          196,
+          81,
+          26
+        ],
+        [
+          214,
+          116,
+          81
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "name": "metatarsal_3_l",
+      "display_name": "3º metatarso esquerdo",
+      "latin": "Os metatarsale 3",
+      "group": "Metatarso",
+      "color": "#a8cbbd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        43.379086336965635,
+        109.58989941324393,
+        76.98742665549037
+      ],
+      "anchor": [
+        43,
+        110,
+        77
+      ],
+      "volume_ml": 9.32,
+      "faces": 6124,
+      "bounds_voxel": [
+        [
+          34,
+          94,
+          49
+        ],
+        [
+          56,
+          130,
+          98
+        ]
+      ]
+    },
+    {
+      "id": 31,
+      "name": "metatarsal_3_r",
+      "display_name": "3º metatarso direito",
+      "latin": "Os metatarsale 3",
+      "group": "Metatarso",
+      "color": "#a8cbbd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        207.1603085261622,
+        85.83760683760684,
+        55.72441109026475
+      ],
+      "anchor": [
+        207,
+        86,
+        56
+      ],
+      "volume_ml": 9.37,
+      "faces": 6040,
+      "bounds_voxel": [
+        [
+          196,
+          70,
+          26
+        ],
+        [
+          215,
+          105,
+          76
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "name": "metatarsal_4_l",
+      "display_name": "4º metatarso esquerdo",
+      "latin": "Os metatarsale 4",
+      "group": "Metatarso",
+      "color": "#dfbba4",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        39.42623738587218,
+        99.69942335415665,
+        75.50240269101394
+      ],
+      "anchor": [
+        39,
+        100,
+        76
+      ],
+      "volume_ml": 8.13,
+      "faces": 5516,
+      "bounds_voxel": [
+        [
+          28,
+          82,
+          51
+        ],
+        [
+          51,
+          120,
+          95
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "name": "metatarsal_4_r",
+      "display_name": "4º metatarso direito",
+      "latin": "Os metatarsale 4",
+      "group": "Metatarso",
+      "color": "#dfbba4",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        208.84237848041528,
+        75.9285040113261,
+        53.55427088249174
+      ],
+      "anchor": [
+        209,
+        76,
+        54
+      ],
+      "volume_ml": 8.28,
+      "faces": 5612,
+      "bounds_voxel": [
+        [
+          196,
+          59,
+          28
+        ],
+        [
+          219,
+          94,
+          74
+        ]
+      ]
+    },
+    {
+      "id": 34,
+      "name": "metatarsal_5_l",
+      "display_name": "5º metatarso esquerdo",
+      "latin": "Os metatarsale 5",
+      "group": "Metatarso",
+      "color": "#c1b5dd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        37.33972719522592,
+        83.04880647911338,
+        79.2811167945439
+      ],
+      "anchor": [
+        37,
+        83,
+        79
+      ],
+      "volume_ml": 9.16,
+      "faces": 5848,
+      "bounds_voxel": [
+        [
+          21,
+          63,
+          55
+        ],
+        [
+          50,
+          104,
+          95
+        ]
+      ]
+    },
+    {
+      "id": 35,
+      "name": "metatarsal_5_r",
+      "display_name": "5º metatarso direito",
+      "latin": "Os metatarsale 5",
+      "group": "Metatarso",
+      "color": "#c1b5dd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        207.16694807935838,
+        59.287252005065426,
+        58.54622203461376
+      ],
+      "anchor": [
+        207,
+        59,
+        59
+      ],
+      "volume_ml": 9.25,
+      "faces": 5892,
+      "bounds_voxel": [
+        [
+          195,
+          42,
+          33
+        ],
+        [
+          223,
+          77,
+          75
+        ]
+      ]
+    },
+    {
+      "id": 36,
+      "name": "phalange_foot_1_1_l",
+      "display_name": "Falange proximal · dedo 1 esquerda",
+      "latin": "Phalanx proximalis 1",
+      "group": "Falanges",
+      "color": "#e19fb0",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        52.54416961130742,
+        155.4122497055359,
+        47.78798586572438
+      ],
+      "anchor": [
+        53,
+        155,
+        48
+      ],
+      "volume_ml": 6.63,
+      "faces": 4212,
+      "bounds_voxel": [
+        [
+          39,
+          143,
+          35
+        ],
+        [
+          66,
+          167,
+          59
+        ]
+      ]
+    },
+    {
+      "id": 37,
+      "name": "phalange_foot_1_1_r",
+      "display_name": "Falange proximal · dedo 1 direita",
+      "latin": "Phalanx proximalis 1",
+      "group": "Falanges",
+      "color": "#e19fb0",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        201.8907190370605,
+        131.75894836870447,
+        32.309154260373774
+      ],
+      "anchor": [
+        202,
+        132,
+        32
+      ],
+      "volume_ml": 6.17,
+      "faces": 3996,
+      "bounds_voxel": [
+        [
+          188,
+          120,
+          23
+        ],
+        [
+          216,
+          144,
+          42
+        ]
+      ]
+    },
+    {
+      "id": 38,
+      "name": "phalange_foot_1_2_l",
+      "display_name": "Falange distal · dedo 1 esquerda",
+      "latin": "Phalanx distalis 1",
+      "group": "Falanges",
+      "color": "#b7c69e",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        39.49405178446466,
+        161.74737578726382,
+        30.22813156053184
+      ],
+      "anchor": [
+        39,
+        162,
+        30
+      ],
+      "volume_ml": 2.79,
+      "faces": 2108,
+      "bounds_voxel": [
+        [
+          31,
+          154,
+          22
+        ],
+        [
+          50,
+          166,
+          37
+        ]
+      ]
+    },
+    {
+      "id": 39,
+      "name": "phalange_foot_1_2_r",
+      "display_name": "Falange distal · dedo 1 direita",
+      "latin": "Phalanx distalis 1",
+      "group": "Falanges",
+      "color": "#b7c69e",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        219.9462528387585,
+        140.24829674489024,
+        21.167297501892506
+      ],
+      "anchor": [
+        220,
+        140,
+        21
+      ],
+      "volume_ml": 2.58,
+      "faces": 2108,
+      "bounds_voxel": [
+        [
+          210,
+          131,
+          16
+        ],
+        [
+          230,
+          147,
+          28
+        ]
+      ]
+    },
+    {
+      "id": 40,
+      "name": "phalange_foot_2_1_l",
+      "display_name": "Falange proximal · dedo 2 esquerda",
+      "latin": "Phalanx proximalis 2",
+      "group": "Falanges",
+      "color": "#9fc7d0",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        36.55281690140845,
+        144.2086267605634,
+        46.743838028169016
+      ],
+      "anchor": [
+        37,
+        144,
+        47
+      ],
+      "volume_ml": 2.22,
+      "faces": 2064,
+      "bounds_voxel": [
+        [
+          26,
+          134,
+          41
+        ],
+        [
+          46,
+          156,
+          54
+        ]
+      ]
+    },
+    {
+      "id": 41,
+      "name": "phalange_foot_2_1_r",
+      "display_name": "Falange proximal · dedo 2 direita",
+      "latin": "Phalanx proximalis 2",
+      "group": "Falanges",
+      "color": "#9fc7d0",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        214.3655462184874,
+        118.70504201680673,
+        27.577310924369748
+      ],
+      "anchor": [
+        214,
+        119,
+        28
+      ],
+      "volume_ml": 2.32,
+      "faces": 2100,
+      "bounds_voxel": [
+        [
+          204,
+          109,
+          23
+        ],
+        [
+          227,
+          128,
+          33
+        ]
+      ]
+    },
+    {
+      "id": 42,
+      "name": "phalange_foot_2_2_l",
+      "display_name": "Falange média · dedo 2 esquerda",
+      "latin": "Phalanx media 2",
+      "group": "Falanges",
+      "color": "#d5bb91",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        27.34965034965035,
+        153.47319347319348,
+        35.74825174825175
+      ],
+      "anchor": [
+        27,
+        153,
+        36
+      ],
+      "volume_ml": 0.84,
+      "faces": 928,
+      "bounds_voxel": [
+        [
+          23,
+          149,
+          30
+        ],
+        [
+          33,
+          158,
+          40
+        ]
+      ]
+    },
+    {
+      "id": 43,
+      "name": "phalange_foot_2_2_r",
+      "display_name": "Falange média · dedo 2 direita",
+      "latin": "Phalanx media 2",
+      "group": "Falanges",
+      "color": "#d5bb91",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        228.0470297029703,
+        127.57673267326733,
+        21.425742574257427
+      ],
+      "anchor": [
+        228,
+        128,
+        21
+      ],
+      "volume_ml": 0.79,
+      "faces": 876,
+      "bounds_voxel": [
+        [
+          222,
+          123,
+          18
+        ],
+        [
+          233,
+          133,
+          26
+        ]
+      ]
+    },
+    {
+      "id": 44,
+      "name": "phalange_foot_2_3_l",
+      "display_name": "Falange distal · dedo 2 esquerda",
+      "latin": "Phalanx distalis 2",
+      "group": "Falanges",
+      "color": "#d7a7c4",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        24.6697247706422,
+        155.26146788990826,
+        26.94954128440367
+      ],
+      "anchor": [
+        25,
+        155,
+        27
+      ],
+      "volume_ml": 0.43,
+      "faces": 536,
+      "bounds_voxel": [
+        [
+          22,
+          152,
+          23
+        ],
+        [
+          28,
+          158,
+          31
+        ]
+      ]
+    },
+    {
+      "id": 45,
+      "name": "phalange_foot_2_3_r",
+      "display_name": "Falange distal · dedo 2 direita",
+      "latin": "Phalanx distalis 2",
+      "group": "Falanges",
+      "color": "#d7a7c4",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        232.86802030456852,
+        130.36548223350255,
+        15.055837563451776
+      ],
+      "anchor": [
+        233,
+        130,
+        15
+      ],
+      "volume_ml": 0.38,
+      "faces": 488,
+      "bounds_voxel": [
+        [
+          230,
+          127,
+          11
+        ],
+        [
+          235,
+          133,
+          19
+        ]
+      ]
+    },
+    {
+      "id": 46,
+      "name": "phalange_foot_3_1_l",
+      "display_name": "Falange proximal · dedo 3 esquerda",
+      "latin": "Phalanx proximalis 3",
+      "group": "Falanges",
+      "color": "#bdc8dd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        30.68092485549133,
+        134.66358381502891,
+        47.72601156069364
+      ],
+      "anchor": [
+        31,
+        135,
+        48
+      ],
+      "volume_ml": 1.69,
+      "faces": 1724,
+      "bounds_voxel": [
+        [
+          21,
+          125,
+          43
+        ],
+        [
+          40,
+          145,
+          53
+        ]
+      ]
+    },
+    {
+      "id": 47,
+      "name": "phalange_foot_3_1_r",
+      "display_name": "Falange proximal · dedo 3 direita",
+      "latin": "Phalanx proximalis 3",
+      "group": "Falanges",
+      "color": "#bdc8dd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        219.96798292422625,
+        108.26680896478122,
+        26.374599786552828
+      ],
+      "anchor": [
+        220,
+        108,
+        26
+      ],
+      "volume_ml": 1.83,
+      "faces": 1804,
+      "bounds_voxel": [
+        [
+          210,
+          99,
+          22
+        ],
+        [
+          231,
+          118,
+          31
+        ]
+      ]
+    },
+    {
+      "id": 48,
+      "name": "phalange_foot_3_2_l",
+      "display_name": "Falange média · dedo 3 esquerda",
+      "latin": "Phalanx media 3",
+      "group": "Falanges",
+      "color": "#e6c6a7",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        22.462962962962962,
+        144.08641975308643,
+        39.157407407407405
+      ],
+      "anchor": [
+        22,
+        144,
+        39
+      ],
+      "volume_ml": 0.63,
+      "faces": 740,
+      "bounds_voxel": [
+        [
+          19,
+          140,
+          35
+        ],
+        [
+          27,
+          148,
+          44
+        ]
+      ]
+    },
+    {
+      "id": 49,
+      "name": "phalange_foot_3_2_r",
+      "display_name": "Falange média · dedo 3 direita",
+      "latin": "Phalanx media 3",
+      "group": "Falanges",
+      "color": "#e6c6a7",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        230.97594501718214,
+        116.95189003436425,
+        20.601374570446737
+      ],
+      "anchor": [
+        231,
+        117,
+        21
+      ],
+      "volume_ml": 0.57,
+      "faces": 692,
+      "bounds_voxel": [
+        [
+          227,
+          113,
+          17
+        ],
+        [
+          235,
+          122,
+          25
+        ]
+      ]
+    },
+    {
+      "id": 50,
+      "name": "phalange_foot_3_3_l",
+      "display_name": "Falange distal · dedo 3 esquerda",
+      "latin": "Phalanx distalis 3",
+      "group": "Falanges",
+      "color": "#d7b0ce",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        21.835164835164836,
+        144.73626373626374,
+        31.48901098901099
+      ],
+      "anchor": [
+        22,
+        145,
+        31
+      ],
+      "volume_ml": 0.36,
+      "faces": 452,
+      "bounds_voxel": [
+        [
+          19,
+          142,
+          28
+        ],
+        [
+          24,
+          148,
+          34
+        ]
+      ]
+    },
+    {
+      "id": 51,
+      "name": "phalange_foot_3_3_r",
+      "display_name": "Falange distal · dedo 3 direita",
+      "latin": "Phalanx distalis 3",
+      "group": "Falanges",
+      "color": "#d7b0ce",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        234.149377593361,
+        120.2116182572614,
+        13.983402489626556
+      ],
+      "anchor": [
+        234,
+        120,
+        14
+      ],
+      "volume_ml": 0.47,
+      "faces": 572,
+      "bounds_voxel": [
+        [
+          231,
+          117,
+          10
+        ],
+        [
+          237,
+          123,
+          17
+        ]
+      ]
+    },
+    {
+      "id": 52,
+      "name": "phalange_foot_4_1_l",
+      "display_name": "Falange proximal · dedo 4 esquerda",
+      "latin": "Phalanx proximalis 4",
+      "group": "Falanges",
+      "color": "#a9c4db",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        25.66580310880829,
+        124.90932642487047,
+        49.23186528497409
+      ],
+      "anchor": [
+        26,
+        125,
+        49
+      ],
+      "volume_ml": 1.51,
+      "faces": 1576,
+      "bounds_voxel": [
+        [
+          17,
+          116,
+          44
+        ],
+        [
+          33,
+          135,
+          55
+        ]
+      ]
+    },
+    {
+      "id": 53,
+      "name": "phalange_foot_4_1_r",
+      "display_name": "Falange proximal · dedo 4 direita",
+      "latin": "Phalanx proximalis 4",
+      "group": "Falanges",
+      "color": "#a9c4db",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        224.43764988009593,
+        97.9820143884892,
+        27.69904076738609
+      ],
+      "anchor": [
+        224,
+        98,
+        28
+      ],
+      "volume_ml": 1.63,
+      "faces": 1648,
+      "bounds_voxel": [
+        [
+          216,
+          89,
+          23
+        ],
+        [
+          234,
+          108,
+          33
+        ]
+      ]
+    },
+    {
+      "id": 54,
+      "name": "phalange_foot_4_2_l",
+      "display_name": "Falange média · dedo 4 esquerda",
+      "latin": "Phalanx media 4",
+      "group": "Falanges",
+      "color": "#a8cbbd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        19.358870967741936,
+        133.30645161290323,
+        40.45564516129032
+      ],
+      "anchor": [
+        19,
+        133,
+        40
+      ],
+      "volume_ml": 0.48,
+      "faces": 604,
+      "bounds_voxel": [
+        [
+          16,
+          129,
+          37
+        ],
+        [
+          23,
+          137,
+          43
+        ]
+      ]
+    },
+    {
+      "id": 55,
+      "name": "phalange_foot_4_2_r",
+      "display_name": "Falange média · dedo 4 direita",
+      "latin": "Phalanx media 4",
+      "group": "Falanges",
+      "color": "#a8cbbd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        233.5142857142857,
+        106.11836734693877,
+        20.16734693877551
+      ],
+      "anchor": [
+        234,
+        106,
+        20
+      ],
+      "volume_ml": 0.48,
+      "faces": 636,
+      "bounds_voxel": [
+        [
+          229,
+          102,
+          16
+        ],
+        [
+          237,
+          111,
+          24
+        ]
+      ]
+    },
+    {
+      "id": 56,
+      "name": "phalange_foot_4_3_l",
+      "display_name": "Falange distal · dedo 4 esquerda",
+      "latin": "Phalanx distalis 4",
+      "group": "Falanges",
+      "color": "#dfbba4",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        20.869565217391305,
+        133.68944099378882,
+        34.577639751552795
+      ],
+      "anchor": [
+        21,
+        134,
+        35
+      ],
+      "volume_ml": 0.31,
+      "faces": 440,
+      "bounds_voxel": [
+        [
+          18,
+          131,
+          31
+        ],
+        [
+          24,
+          137,
+          37
+        ]
+      ]
+    },
+    {
+      "id": 57,
+      "name": "phalange_foot_4_3_r",
+      "display_name": "Falange distal · dedo 4 direita",
+      "latin": "Phalanx distalis 4",
+      "group": "Falanges",
+      "color": "#dfbba4",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        234.07344632768363,
+        108.7231638418079,
+        13.864406779661017
+      ],
+      "anchor": [
+        234,
+        109,
+        14
+      ],
+      "volume_ml": 0.35,
+      "faces": 456,
+      "bounds_voxel": [
+        [
+          232,
+          105,
+          10
+        ],
+        [
+          237,
+          112,
+          17
+        ]
+      ]
+    },
+    {
+      "id": 58,
+      "name": "phalange_foot_5_1_l",
+      "display_name": "Falange proximal · dedo 5 esquerda",
+      "latin": "Phalanx proximalis 5",
+      "group": "Falanges",
+      "color": "#c1b5dd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        21.314685314685313,
+        108.94405594405595,
+        52.46678321678322
+      ],
+      "anchor": [
+        21,
+        109,
+        52
+      ],
+      "volume_ml": 1.12,
+      "faces": 1268,
+      "bounds_voxel": [
+        [
+          16,
+          100,
+          46
+        ],
+        [
+          28,
+          119,
+          58
+        ]
+      ]
+    },
+    {
+      "id": 59,
+      "name": "phalange_foot_5_1_r",
+      "display_name": "Falange proximal · dedo 5 direita",
+      "latin": "Phalanx proximalis 5",
+      "group": "Falanges",
+      "color": "#c1b5dd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        224.8181818181818,
+        80.87710437710437,
+        30.473063973063972
+      ],
+      "anchor": [
+        225,
+        81,
+        30
+      ],
+      "volume_ml": 1.16,
+      "faces": 1304,
+      "bounds_voxel": [
+        [
+          218,
+          74,
+          24
+        ],
+        [
+          232,
+          90,
+          36
+        ]
+      ]
+    },
+    {
+      "id": 60,
+      "name": "phalange_foot_5_2_l",
+      "display_name": "Falange média · dedo 5 esquerda",
+      "latin": "Phalanx media 5",
+      "group": "Falanges",
+      "color": "#e19fb0",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        17.25,
+        119.0909090909091,
+        45.43181818181818
+      ],
+      "anchor": [
+        17,
+        119,
+        45
+      ],
+      "volume_ml": 0.26,
+      "faces": 392,
+      "bounds_voxel": [
+        [
+          15,
+          116,
+          43
+        ],
+        [
+          20,
+          123,
+          48
+        ]
+      ]
+    },
+    {
+      "id": 61,
+      "name": "phalange_foot_5_2_r",
+      "display_name": "Falange média · dedo 5 direita",
+      "latin": "Phalanx media 5",
+      "group": "Falanges",
+      "color": "#e19fb0",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        231.51408450704224,
+        89.35211267605634,
+        23.492957746478872
+      ],
+      "anchor": [
+        232,
+        89,
+        23
+      ],
+      "volume_ml": 0.28,
+      "faces": 420,
+      "bounds_voxel": [
+        [
+          229,
+          86,
+          21
+        ],
+        [
+          234,
+          93,
+          26
+        ]
+      ]
+    },
+    {
+      "id": 62,
+      "name": "phalange_foot_5_3_l",
+      "display_name": "Falange distal · dedo 5 esquerda",
+      "latin": "Phalanx distalis 5",
+      "group": "Falanges",
+      "color": "#b7c69e",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        18.354430379746834,
+        121.58227848101266,
+        41.50632911392405
+      ],
+      "anchor": [
+        18,
+        122,
+        42
+      ],
+      "volume_ml": 0.15,
+      "faces": 252,
+      "bounds_voxel": [
+        [
+          16,
+          120,
+          39
+        ],
+        [
+          20,
+          123,
+          44
+        ]
+      ]
+    },
+    {
+      "id": 63,
+      "name": "phalange_foot_5_3_r",
+      "display_name": "Falange distal · dedo 5 direita",
+      "latin": "Phalanx distalis 5",
+      "group": "Falanges",
+      "color": "#b7c69e",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        232.02272727272728,
+        93.7840909090909,
+        20.045454545454547
+      ],
+      "anchor": [
+        232,
+        94,
+        20
+      ],
+      "volume_ml": 0.17,
+      "faces": 288,
+      "bounds_voxel": [
+        [
+          231,
+          91,
+          18
+        ],
+        [
+          234,
+          97,
+          23
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "url": "https://huggingface.co/datasets/BoneHub/vsd-lower-extremities-seg",
+    "attribution": "BoneHub · Alavi & Asseln (2026), baseado em Fischer (2023)",
+    "license": "CC BY-NC-SA 4.0 · uso não comercial"
+  },
+  "coverage": "52 ossos dos pés e porções distais das duas tíbias e fíbulas. As extremidades superiores desses quatro segmentos são recortes regionais. Mesmo exame nos três módulos inferiores. Dados derivados sob CC BY-NC-SA 4.0."
+}

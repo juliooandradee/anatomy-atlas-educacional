@@ -1,0 +1,17 @@
+# Local dependencies and build outputs
+web/node_modules/
+web/.next/
+web/out/
+web/tsconfig.tsbuildinfo
+pipeline/.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Downloaded raw scans and temporary QA files
+/data/
+work/
+.env
+.env.*
+web/.env
+web/.env.*

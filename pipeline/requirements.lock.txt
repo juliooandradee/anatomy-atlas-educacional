@@ -1,0 +1,12 @@
+fast_simplification==0.2.0
+ImageIO==2.37.4
+lazy-loader==0.6
+networkx==3.7
+nibabel==5.4.2
+numpy==2.5.3
+packaging==26.3
+pillow==12.3.0
+scikit-image==0.26.0
+scipy==1.18.1
+tifffile==2026.9.20
+trimesh==4.12.2

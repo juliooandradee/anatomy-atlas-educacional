@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "subject": "BoneHub 002 / VSD 006",
+  "shape": [
+    162,
+    91,
+    443
+  ],
+  "spacing_mm": [
+    2.0,
+    2.0,
+    2.0
+  ],
+  "center_mm": [
+    161.0,
+    90.0,
+    442.0
+  ],
+  "affine_ras": [
+    [
+      2.0,
+      0.0,
+      0.0,
+      -171.38671875
+    ],
+    [
+      0.0,
+      2.0,
+      0.0,
+      18.48828125
+    ],
+    [
+      0.0,
+      0.0,
+      2.0,
+      261.05060589313507
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_affine_ras": [
+    [
+      0.9765625,
+      0.0,
+      0.0,
+      -249.51171875
+    ],
+    [
+      0.0,
+      0.9765625,
+      0.0,
+      -106.51171875
+    ],
+    [
+      0.0,
+      0.0,
+      0.6997554898262024,
+      119.69999694824219
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_crop_voxel": [
+    [
+      80,
+      128,
+      202
+    ],
+    [
+      409,
+      312,
+      1465
+    ]
+  ],
+  "storage": "C-order; index = i*nj*nk + j*nk + k",
+  "ct_dtype": "int16-le",
+  "window": {
+    "width": 1800,
+    "level": 400
+  },
+  "default_window": "bone",
+  "default_id": 8,
+  "organs": [
+    {
+      "id": 4,
+      "name": "femur_l",
+      "display_name": "Fêmur esquerdo",
+      "latin": "Femur",
+      "group": "Coxas",
+      "color": "#a9c4db",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        36.06447295685316,
+        55.83374065345786,
+        309.5740304326322
+      ],
+      "anchor": [
+        36,
+        56,
+        310
+      ],
+      "volume_ml": 549.94,
+      "faces": 30000,
+      "bounds_voxel": [
+        [
+          10,
+          26,
+          209
+        ],
+        [
+          64,
+          80,
+          432
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "name": "femur_r",
+      "display_name": "Fêmur direito",
+      "latin": "Femur",
+      "group": "Coxas",
+      "color": "#a9c4db",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        127.11084000902629,
+        55.76788333521381,
+        298.0197309037572
+      ],
+      "anchor": [
+        127,
+        56,
+        298
+      ],
+      "volume_ml": 567.23,
+      "faces": 30000,
+      "bounds_voxel": [
+        [
+          96,
+          30,
+          199
+        ],
+        [
+          151,
+          75,
+          424
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "name": "patella_l",
+      "display_name": "Patela esquerda",
+      "latin": "Patella",
+      "group": "Joelhos",
+      "color": "#a8cbbd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        44.37935272429332,
+        66.3482179434658,
+        227.15772224498156
+      ],
+      "anchor": [
+        44,
+        66,
+        227
+      ],
+      "volume_ml": 19.53,
+      "faces": 2916,
+      "bounds_voxel": [
+        [
+          33,
+          61,
+          218
+        ],
+        [
+          55,
+          71,
+          237
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "name": "patella_r",
+      "display_name": "Patela direita",
+      "latin": "Patella",
+      "group": "Joelhos",
+      "color": "#a8cbbd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        131.79303106633083,
+        70.85642317380352,
+        215.16372795969772
+      ],
+      "anchor": [
+        132,
+        71,
+        215
+      ],
+      "volume_ml": 19.06,
+      "faces": 3028,
+      "bounds_voxel": [
+        [
+          121,
+          64,
+          205
+        ],
+        [
+          142,
+          78,
+          225
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "name": "tibia_l",
+      "display_name": "Tíbia esquerda",
+      "latin": "Tibia",
+      "group": "Pernas",
+      "color": "#dfbba4",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        42.15928650315697,
+        40.99589489257955,
+        136.64327241659547
+      ],
+      "anchor": [
+        42,
+        41,
+        137
+      ],
+      "volume_ml": 383.91,
+      "faces": 30000,
+      "bounds_voxel": [
+        [
+          24,
+          25,
+          22
+        ],
+        [
+          61,
+          58,
+          212
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "name": "tibia_r",
+      "display_name": "Tíbia direita",
+      "latin": "Tibia",
+      "group": "Pernas",
+      "color": "#dfbba4",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        116.68243641523851,
+        40.4874140377688,
+        131.24434013753958
+      ],
+      "anchor": [
+        117,
+        40,
+        131
+      ],
+      "volume_ml": 366.44,
+      "faces": 30000,
+      "bounds_voxel": [
+        [
+          100,
+          16,
+          14
+        ],
+        [
+          137,
+          62,
+          203
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "name": "fibula_l",
+      "display_name": "Fíbula esquerda",
+      "latin": "Fibula",
+      "group": "Pernas",
+      "color": "#c1b5dd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        28.67247007616975,
+        28.55669205658324,
+        111.58705114254624
+      ],
+      "anchor": [
+        29,
+        29,
+        112
+      ],
+      "volume_ml": 73.52,
+      "faces": 13124,
+      "bounds_voxel": [
+        [
+          19,
+          22,
+          18
+        ],
+        [
+          34,
+          39,
+          203
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "name": "fibula_r",
+      "display_name": "Fíbula direita",
+      "latin": "Fibula",
+      "group": "Pernas",
+      "color": "#c1b5dd",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        122.12169031984749,
+        21.814022452870155,
+        102.90965897055709
+      ],
+      "anchor": [
+        122,
+        22,
+        103
+      ],
+      "volume_ml": 75.54,
+      "faces": 13668,
+      "bounds_voxel": [
+        [
+          114,
+          10,
+          9
+        ],
+        [
+          136,
+          35,
+          194
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "url": "https://huggingface.co/datasets/BoneHub/vsd-lower-extremities-seg",
+    "attribution": "BoneHub · Alavi & Asseln (2026), baseado em Fischer (2023)",
+    "license": "CC BY-NC-SA 4.0 · uso não comercial"
+  },
+  "coverage": "Ossos longos e patelas completos. Tecidos moles aparecem na TC e não são estruturas selecionáveis. Mesmo exame nos três módulos inferiores. Dados derivados sob CC BY-NC-SA 4.0."
+}

@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "subject": "BoneHub 002 / VSD 006",
+  "shape": [
+    157,
+    106,
+    159
+  ],
+  "spacing_mm": [
+    2.0,
+    2.0,
+    2.0
+  ],
+  "center_mm": [
+    156.0,
+    105.0,
+    158.0
+  ],
+  "affine_ras": [
+    [
+      2.0,
+      0.0,
+      0.0,
+      -156.73828125
+    ],
+    [
+      0.0,
+      2.0,
+      0.0,
+      20.44140625
+    ],
+    [
+      0.0,
+      0.0,
+      2.0,
+      947.5107414126396
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_affine_ras": [
+    [
+      0.9765625,
+      0.0,
+      0.0,
+      -249.51171875
+    ],
+    [
+      0.0,
+      0.9765625,
+      0.0,
+      -106.51171875
+    ],
+    [
+      0.0,
+      0.0,
+      0.6997554898262024,
+      119.69999694824219
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_crop_voxel": [
+    [
+      95,
+      130,
+      1183
+    ],
+    [
+      414,
+      345,
+      1633
+    ]
+  ],
+  "storage": "C-order; index = i*nj*nk + j*nk + k",
+  "ct_dtype": "int16-le",
+  "window": {
+    "width": 1800,
+    "level": 400
+  },
+  "default_window": "bone",
+  "default_id": 2,
+  "organs": [
+    {
+      "id": 1,
+      "name": "sacrum",
+      "display_name": "Sacro",
+      "latin": "Os sacrum",
+      "group": "Cintura pélvica",
+      "color": "#e6c6a7",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        77.1901023890785,
+        35.684271899886234,
+        121.90005688282139
+      ],
+      "anchor": [
+        77,
+        36,
+        122
+      ],
+      "volume_ml": 281.28,
+      "faces": 30000,
+      "bounds_voxel": [
+        [
+          47,
+          10,
+          72
+        ],
+        [
+          112,
+          61,
+          147
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "hip_l",
+      "display_name": "Osso do quadril esquerdo",
+      "latin": "Os coxae",
+      "group": "Cintura pélvica",
+      "color": "#d7b0ce",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        38.6996060479345,
+        60.39608688953936,
+        98.84057046019764
+      ],
+      "anchor": [
+        39,
+        60,
+        99
+      ],
+      "volume_ml": 363.5,
+      "faces": 30000,
+      "bounds_voxel": [
+        [
+          10,
+          22,
+          42
+        ],
+        [
+          73,
+          95,
+          147
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "name": "hip_r",
+      "display_name": "Osso do quadril direito",
+      "latin": "Os coxae",
+      "group": "Cintura pélvica",
+      "color": "#d7b0ce",
+      "note": "Compare os lados e use “Isolar estrutura” para acompanhar seu contorno nas vistas sincronizadas.",
+      "centroid": [
+        112.36298312465978,
+        56.73611322808927,
+        93.14532389765922
+      ],
+      "anchor": [
+        112,
+        57,
+        93
+      ],
+      "volume_ml": 367.4,
+      "faces": 30000,
+      "bounds_voxel": [
+        [
+          73,
+          19,
+          37
+        ],
+        [
+          146,
+          90,
+          141
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "name": "femur_l",
+      "display_name": "Fêmur esquerdo · proximal",
+      "latin": "Femur",
+      "group": "Coxas",
+      "color": "#a9c4db",
+      "note": "Este módulo mostra apenas a porção proximal. Abra “Coxas e pernas” para explorar o fêmur completo.",
+      "centroid": [
+        20.94810150027783,
+        62.16365993702537,
+        52.50568623819226
+      ],
+      "anchor": [
+        21,
+        62,
+        53
+      ],
+      "volume_ml": 215.96,
+      "faces": 18188,
+      "bounds_voxel": [
+        [
+          2,
+          49,
+          0
+        ],
+        [
+          42,
+          79,
+          89
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "name": "femur_r",
+      "display_name": "Fêmur direito · proximal",
+      "latin": "Femur",
+      "group": "Coxas",
+      "color": "#a9c4db",
+      "note": "Este módulo mostra apenas a porção proximal. Abra “Coxas e pernas” para explorar o fêmur completo.",
+      "centroid": [
+        125.70314103070002,
+        54.92482834819667,
+        46.677965432878224
+      ],
+      "anchor": [
+        126,
+        55,
+        47
+      ],
+      "volume_ml": 202.74,
+      "faces": 17592,
+      "bounds_voxel": [
+        [
+          106,
+          40,
+          0
+        ],
+        [
+          143,
+          74,
+          80
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "url": "https://huggingface.co/datasets/BoneHub/vsd-lower-extremities-seg",
+    "attribution": "BoneHub · Alavi & Asseln (2026), baseado em Fischer (2023)",
+    "license": "CC BY-NC-SA 4.0 · uso não comercial"
+  },
+  "coverage": "Sacro e ossos do quadril completos; fêmures limitados à porção proximal neste módulo. Mesmo exame nos três módulos inferiores. Dados derivados sob CC BY-NC-SA 4.0."
+}

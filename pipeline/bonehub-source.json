@@ -1,0 +1,19 @@
+{
+  "repository": "BoneHub/vsd-lower-extremities-seg",
+  "revision": "85214b5a182b980a7869b57efba89a59a2445875",
+  "case": "002",
+  "source_subject": "006",
+  "license": "CC BY-NC-SA 4.0",
+  "files": [
+    {
+      "path": "lower_extremity_ct/labelsTr/002.nii.gz",
+      "size": 1059779,
+      "sha256": "ef03c91f9295ec6cd5882b4bfe6a9890f068a87b78906c1f8d95dff66e2bb69d"
+    },
+    {
+      "path": "lower_extremity_ct/imagesTr/002_0000.nii.gz",
+      "size": 345956729,
+      "sha256": "36b166cf95b655660db7274de5e17e5fb976772ae9dc66a4ff2ba1b23ebcb42f"
+    }
+  ]
+}

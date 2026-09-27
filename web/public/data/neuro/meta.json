@@ -1,0 +1,3631 @@
+{
+  "schema_version": 1,
+  "modality": "MRI",
+  "subject": "ICBM152 2009c Sym / CerebrA",
+  "shape": [
+    153,
+    190,
+    165
+  ],
+  "spacing_mm": [
+    1,
+    1,
+    1
+  ],
+  "center_mm": [
+    76.0,
+    94.5,
+    82.0
+  ],
+  "affine_ras": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -76.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -111.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -78.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_affine_ras": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -96.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -132.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -78.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_crop_voxel": [
+    [
+      20,
+      21,
+      0
+    ],
+    [
+      173,
+      211,
+      165
+    ]
+  ],
+  "ct_dtype": "int16-le",
+  "intensity_units": "unidades arbitrárias × 100; não são HU",
+  "window": {
+    "width": 11000,
+    "level": 5500
+  },
+  "sequence_windows": {
+    "t1": {
+      "width": 11000,
+      "level": 5500
+    },
+    "t2": {
+      "width": 10000,
+      "level": 5000
+    }
+  },
+  "default_id": 86,
+  "organs": [
+    {
+      "id": 32,
+      "name": "pars_opercularis_r",
+      "display_name": "Frontal inferior · parte opercular · direito",
+      "latin": "Pars Opercularis",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        123.78391763325948,
+        125.88453017072852,
+        91.10647725791738
+      ],
+      "anchor": [
+        124,
+        128,
+        88
+      ],
+      "volume_ml": 7.673,
+      "faces": 12298,
+      "bounds_voxel": [
+        [
+          106,
+          113,
+          73
+        ],
+        [
+          137,
+          140,
+          108
+        ]
+      ],
+      "source_ids": [
+        32
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 83,
+      "name": "pars_opercularis_l",
+      "display_name": "Frontal inferior · parte opercular · esquerdo",
+      "latin": "Pars Opercularis",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        28.21608236674052,
+        125.88453017072852,
+        91.10647725791738
+      ],
+      "anchor": [
+        28,
+        128,
+        88
+      ],
+      "volume_ml": 7.673,
+      "faces": 12298,
+      "bounds_voxel": [
+        [
+          15,
+          113,
+          73
+        ],
+        [
+          46,
+          140,
+          108
+        ]
+      ],
+      "source_ids": [
+        83
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 44,
+      "name": "pars_orbitalis_r",
+      "display_name": "Frontal inferior · parte orbital · direito",
+      "latin": "Pars Orbitalis",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        119.07914262159935,
+        145.03489969771914,
+        65.22588623248146
+      ],
+      "anchor": [
+        121,
+        145,
+        68
+      ],
+      "volume_ml": 3.639,
+      "faces": 6912,
+      "bounds_voxel": [
+        [
+          105,
+          130,
+          56
+        ],
+        [
+          130,
+          161,
+          80
+        ]
+      ],
+      "source_ids": [
+        44
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 95,
+      "name": "pars_orbitalis_l",
+      "display_name": "Frontal inferior · parte orbital · esquerdo",
+      "latin": "Pars Orbitalis",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        32.92085737840066,
+        145.03489969771914,
+        65.22588623248146
+      ],
+      "anchor": [
+        31,
+        145,
+        68
+      ],
+      "volume_ml": 3.639,
+      "faces": 6912,
+      "bounds_voxel": [
+        [
+          22,
+          130,
+          56
+        ],
+        [
+          47,
+          161,
+          80
+        ]
+      ],
+      "source_ids": [
+        95
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 22,
+      "name": "pars_triangularis_r",
+      "display_name": "Frontal inferior · parte triangular · direito",
+      "latin": "Pars Triangularis",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        124.56454367984382,
+        142.7584187408492,
+        82.70424597364568
+      ],
+      "anchor": [
+        126,
+        144,
+        82
+      ],
+      "volume_ml": 8.196,
+      "faces": 12782,
+      "bounds_voxel": [
+        [
+          105,
+          130,
+          67
+        ],
+        [
+          136,
+          159,
+          100
+        ]
+      ],
+      "source_ids": [
+        22
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 73,
+      "name": "pars_triangularis_l",
+      "display_name": "Frontal inferior · parte triangular · esquerdo",
+      "latin": "Pars Triangularis",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        27.435456320156174,
+        142.7584187408492,
+        82.70424597364568
+      ],
+      "anchor": [
+        26,
+        144,
+        82
+      ],
+      "volume_ml": 8.196,
+      "faces": 12782,
+      "bounds_voxel": [
+        [
+          16,
+          130,
+          67
+        ],
+        [
+          47,
+          159,
+          100
+        ]
+      ],
+      "source_ids": [
+        73
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 42,
+      "name": "caudal_middle_frontal_r",
+      "display_name": "Frontal médio caudal · direito",
+      "latin": "Caudal Middle Frontal",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        112.93736762481089,
+        123.26490166414523,
+        125.66013615733736
+      ],
+      "anchor": [
+        115,
+        120,
+        125
+      ],
+      "volume_ml": 13.22,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          97,
+          104,
+          103
+        ],
+        [
+          130,
+          156,
+          144
+        ]
+      ],
+      "source_ids": [
+        42
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 93,
+      "name": "caudal_middle_frontal_l",
+      "display_name": "Frontal médio caudal · esquerdo",
+      "latin": "Caudal Middle Frontal",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        39.06263237518911,
+        123.26490166414523,
+        125.66013615733736
+      ],
+      "anchor": [
+        37,
+        120,
+        125
+      ],
+      "volume_ml": 13.22,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          22,
+          104,
+          103
+        ],
+        [
+          55,
+          156,
+          144
+        ]
+      ],
+      "source_ids": [
+        93
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 1,
+      "name": "rostral_middle_frontal_r",
+      "display_name": "Frontal médio rostral · direito",
+      "latin": "Rostral Middle Frontal",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        114.53739306411553,
+        153.74790727623954,
+        95.6710514212124
+      ],
+      "anchor": [
+        115,
+        154,
+        96
+      ],
+      "volume_ml": 21.742,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          97,
+          113,
+          59
+        ],
+        [
+          132,
+          178,
+          134
+        ]
+      ],
+      "source_ids": [
+        1
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 52,
+      "name": "rostral_middle_frontal_l",
+      "display_name": "Frontal médio rostral · esquerdo",
+      "latin": "Rostral Middle Frontal",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        37.462606935884466,
+        153.74790727623954,
+        95.6710514212124
+      ],
+      "anchor": [
+        37,
+        154,
+        96
+      ],
+      "volume_ml": 21.742,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          20,
+          113,
+          59
+        ],
+        [
+          55,
+          178,
+          134
+        ]
+      ],
+      "source_ids": [
+        52
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 38,
+      "name": "superior_frontal_r",
+      "display_name": "Frontal superior · direito",
+      "latin": "Superior Frontal",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        89.23565383668756,
+        144.82021621007593,
+        115.36532308449611
+      ],
+      "anchor": [
+        85,
+        145,
+        115
+      ],
+      "volume_ml": 52.819,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          77,
+          93,
+          61
+        ],
+        [
+          110,
+          185,
+          156
+        ]
+      ],
+      "source_ids": [
+        38
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 89,
+      "name": "superior_frontal_l",
+      "display_name": "Frontal superior · esquerdo",
+      "latin": "Superior Frontal",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        62.764346163312446,
+        144.82021621007593,
+        115.36532308449611
+      ],
+      "anchor": [
+        67,
+        145,
+        115
+      ],
+      "volume_ml": 52.819,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          42,
+          93,
+          61
+        ],
+        [
+          75,
+          185,
+          156
+        ]
+      ],
+      "source_ids": [
+        89
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 35,
+      "name": "precentral_r",
+      "display_name": "Giro pré-central · direito",
+      "latin": "Precentral",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        118.75707006964895,
+        103.70471649605011,
+        119.73692329266582
+      ],
+      "anchor": [
+        116,
+        106,
+        124
+      ],
+      "volume_ml": 21.393,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          81,
+          75,
+          77
+        ],
+        [
+          142,
+          125,
+          159
+        ]
+      ],
+      "source_ids": [
+        35
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 86,
+      "name": "precentral_l",
+      "display_name": "Giro pré-central · esquerdo",
+      "latin": "Precentral",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        33.242929930351046,
+        103.70471649605011,
+        119.73692329266582
+      ],
+      "anchor": [
+        36,
+        106,
+        124
+      ],
+      "volume_ml": 21.393,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          10,
+          75,
+          77
+        ],
+        [
+          71,
+          125,
+          159
+        ]
+      ],
+      "source_ids": [
+        86
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 7,
+      "name": "lateral_orbitofrontal_r",
+      "display_name": "Orbitofrontal lateral · direito",
+      "latin": "Lateral Orbitofrontal",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        98.61261800292515,
+        147.00053184416967,
+        58.853144528653104
+      ],
+      "anchor": [
+        99,
+        147,
+        59
+      ],
+      "volume_ml": 15.042,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          80,
+          115,
+          47
+        ],
+        [
+          119,
+          180,
+          81
+        ]
+      ],
+      "source_ids": [
+        7
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 58,
+      "name": "lateral_orbitofrontal_l",
+      "display_name": "Orbitofrontal lateral · esquerdo",
+      "latin": "Lateral Orbitofrontal",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        53.387381997074854,
+        147.00053184416967,
+        58.853144528653104
+      ],
+      "anchor": [
+        53,
+        147,
+        59
+      ],
+      "volume_ml": 15.042,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          33,
+          115,
+          47
+        ],
+        [
+          72,
+          180,
+          81
+        ]
+      ],
+      "source_ids": [
+        58
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 15,
+      "name": "medial_orbitofrontal_r",
+      "display_name": "Orbitofrontal medial · direito",
+      "latin": "Medial Orbitofrontal",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        81.33802341287708,
+        148.68989194056732,
+        59.94214317874831
+      ],
+      "anchor": [
+        81,
+        149,
+        60
+      ],
+      "volume_ml": 8.884,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          76,
+          116,
+          46
+        ],
+        [
+          90,
+          183,
+          76
+        ]
+      ],
+      "source_ids": [
+        15
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 66,
+      "name": "medial_orbitofrontal_l",
+      "display_name": "Orbitofrontal medial · esquerdo",
+      "latin": "Medial Orbitofrontal",
+      "group": "Córtex frontal",
+      "color": "#C6B6DB",
+      "centroid": [
+        70.58888635326335,
+        148.78708352350526,
+        59.96131903240529
+      ],
+      "anchor": [
+        71,
+        149,
+        60
+      ],
+      "volume_ml": 8.764,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          62,
+          116,
+          46
+        ],
+        [
+          75,
+          183,
+          76
+        ]
+      ],
+      "source_ids": [
+        66
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 6,
+      "name": "pericalcarine_r",
+      "display_name": "Córtex pericalcarino · direito",
+      "latin": "Pericalcarine",
+      "group": "Córtex occipital",
+      "color": "#98BDB2",
+      "centroid": [
+        87.37614314115308,
+        28.656063618290258,
+        84.17673956262425
+      ],
+      "anchor": [
+        87,
+        29,
+        82
+      ],
+      "volume_ml": 5.03,
+      "faces": 10540,
+      "bounds_voxel": [
+        [
+          80,
+          10,
+          68
+        ],
+        [
+          103,
+          50,
+          97
+        ]
+      ],
+      "source_ids": [
+        6
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 57,
+      "name": "pericalcarine_l",
+      "display_name": "Córtex pericalcarino · esquerdo",
+      "latin": "Pericalcarine",
+      "group": "Córtex occipital",
+      "color": "#98BDB2",
+      "centroid": [
+        64.62385685884692,
+        28.656063618290258,
+        84.17673956262425
+      ],
+      "anchor": [
+        65,
+        29,
+        82
+      ],
+      "volume_ml": 5.03,
+      "faces": 10540,
+      "bounds_voxel": [
+        [
+          49,
+          10,
+          68
+        ],
+        [
+          72,
+          50,
+          97
+        ]
+      ],
+      "source_ids": [
+        57
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 43,
+      "name": "cuneus_r",
+      "display_name": "Cúneo · direito",
+      "latin": "Cuneus",
+      "group": "Córtex occipital",
+      "color": "#98BDB2",
+      "centroid": [
+        84.60294846382557,
+        29.697720515361745,
+        102.57978196233896
+      ],
+      "anchor": [
+        84,
+        29,
+        102
+      ],
+      "volume_ml": 8.072,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          76,
+          11,
+          77
+        ],
+        [
+          97,
+          58,
+          122
+        ]
+      ],
+      "source_ids": [
+        43
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 94,
+      "name": "cuneus_l",
+      "display_name": "Cúneo · esquerdo",
+      "latin": "Cuneus",
+      "group": "Córtex occipital",
+      "color": "#98BDB2",
+      "centroid": [
+        67.39065212000992,
+        29.693280436399704,
+        102.58455244235061
+      ],
+      "anchor": [
+        68,
+        29,
+        102
+      ],
+      "volume_ml": 8.066,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          55,
+          11,
+          77
+        ],
+        [
+          75,
+          58,
+          122
+        ]
+      ],
+      "source_ids": [
+        94
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 12,
+      "name": "lingual_r",
+      "display_name": "Giro lingual · direito",
+      "latin": "Lingual",
+      "group": "Córtex occipital",
+      "color": "#98BDB2",
+      "centroid": [
+        89.53057757644395,
+        41.64981394596344,
+        72.86045947257725
+      ],
+      "anchor": [
+        89,
+        44,
+        74
+      ],
+      "volume_ml": 12.362,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          76,
+          12,
+          59
+        ],
+        [
+          109,
+          74,
+          101
+        ]
+      ],
+      "source_ids": [
+        12
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 63,
+      "name": "lingual_l",
+      "display_name": "Giro lingual · esquerdo",
+      "latin": "Lingual",
+      "group": "Córtex occipital",
+      "color": "#98BDB2",
+      "centroid": [
+        62.466138037058016,
+        41.651589934460716,
+        72.85856460878712
+      ],
+      "anchor": [
+        63,
+        44,
+        74
+      ],
+      "volume_ml": 12.359,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          43,
+          12,
+          59
+        ],
+        [
+          75,
+          74,
+          101
+        ]
+      ],
+      "source_ids": [
+        63
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 34,
+      "name": "lateral_occipital_r",
+      "display_name": "Occipital lateral · direito",
+      "latin": "Lateral Occipital",
+      "group": "Córtex occipital",
+      "color": "#98BDB2",
+      "centroid": [
+        107.912000701539,
+        23.835796027535405,
+        79.53891349147192
+      ],
+      "anchor": [
+        108,
+        24,
+        80
+      ],
+      "volume_ml": 22.807,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          81,
+          4,
+          57
+        ],
+        [
+          139,
+          61,
+          112
+        ]
+      ],
+      "source_ids": [
+        34
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 85,
+      "name": "lateral_occipital_l",
+      "display_name": "Occipital lateral · esquerdo",
+      "latin": "Lateral Occipital",
+      "group": "Córtex occipital",
+      "color": "#98BDB2",
+      "centroid": [
+        44.087999298461,
+        23.835796027535405,
+        79.53891349147192
+      ],
+      "anchor": [
+        44,
+        24,
+        80
+      ],
+      "volume_ml": 22.807,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          13,
+          4,
+          57
+        ],
+        [
+          71,
+          61,
+          112
+        ]
+      ],
+      "source_ids": [
+        85
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 16,
+      "name": "paracentral_r",
+      "display_name": "Lóbulo paracentral · direito",
+      "latin": "Paracentral",
+      "group": "Córtex paracentral",
+      "color": "#AEBCD2",
+      "centroid": [
+        83.6650886137412,
+        84.46758922068463,
+        137.71267297887837
+      ],
+      "anchor": [
+        84,
+        84,
+        138
+      ],
+      "volume_ml": 8.238,
+      "faces": 13260,
+      "bounds_voxel": [
+        [
+          77,
+          64,
+          116
+        ],
+        [
+          95,
+          106,
+          157
+        ]
+      ],
+      "source_ids": [
+        16
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 67,
+      "name": "paracentral_l",
+      "display_name": "Lóbulo paracentral · esquerdo",
+      "latin": "Paracentral",
+      "group": "Córtex paracentral",
+      "color": "#AEBCD2",
+      "centroid": [
+        68.3349113862588,
+        84.46758922068463,
+        137.71267297887837
+      ],
+      "anchor": [
+        68,
+        84,
+        138
+      ],
+      "volume_ml": 8.238,
+      "faces": 13260,
+      "bounds_voxel": [
+        [
+          57,
+          64,
+          116
+        ],
+        [
+          75,
+          106,
+          157
+        ]
+      ],
+      "source_ids": [
+        67
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 13,
+      "name": "postcentral_r",
+      "display_name": "Giro pós-central · direito",
+      "latin": "Postcentral",
+      "group": "Córtex parietal",
+      "color": "#C4A28C",
+      "centroid": [
+        118.98972188633616,
+        85.96795646916566,
+        124.68170825546883
+      ],
+      "anchor": [
+        121,
+        85,
+        123
+      ],
+      "volume_ml": 18.194,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          81,
+          52,
+          85
+        ],
+        [
+          146,
+          109,
+          160
+        ]
+      ],
+      "source_ids": [
+        13
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 64,
+      "name": "postcentral_l",
+      "display_name": "Giro pós-central · esquerdo",
+      "latin": "Postcentral",
+      "group": "Córtex parietal",
+      "color": "#C4A28C",
+      "centroid": [
+        33.010278113663844,
+        85.96795646916566,
+        124.68170825546883
+      ],
+      "anchor": [
+        31,
+        85,
+        123
+      ],
+      "volume_ml": 18.194,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          6,
+          52,
+          85
+        ],
+        [
+          71,
+          109,
+          160
+        ]
+      ],
+      "source_ids": [
+        64
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 51,
+      "name": "supramarginal_r",
+      "display_name": "Giro supramarginal · direito",
+      "latin": "Supramarginal",
+      "group": "Córtex parietal",
+      "color": "#C4A28C",
+      "centroid": [
+        131.1511881743903,
+        75.85217987899956,
+        113.981787563151
+      ],
+      "anchor": [
+        132,
+        76,
+        114
+      ],
+      "volume_ml": 16.033,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          107,
+          58,
+          91
+        ],
+        [
+          145,
+          95,
+          137
+        ]
+      ],
+      "source_ids": [
+        51
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 102,
+      "name": "supramarginal_l",
+      "display_name": "Giro supramarginal · esquerdo",
+      "latin": "Supramarginal",
+      "group": "Córtex parietal",
+      "color": "#C4A28C",
+      "centroid": [
+        20.84881182560968,
+        75.85217987899956,
+        113.981787563151
+      ],
+      "anchor": [
+        20,
+        76,
+        114
+      ],
+      "volume_ml": 16.033,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          7,
+          58,
+          91
+        ],
+        [
+          45,
+          95,
+          137
+        ]
+      ],
+      "source_ids": [
+        102
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 10,
+      "name": "inferior_parietal_r",
+      "display_name": "Parietal inferior · direito",
+      "latin": "Inferior Parietal",
+      "group": "Córtex parietal",
+      "color": "#C4A28C",
+      "centroid": [
+        121.84877415412817,
+        46.56511112808371,
+        109.71985030168793
+      ],
+      "anchor": [
+        122,
+        47,
+        110
+      ],
+      "volume_ml": 26.186,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          103,
+          18,
+          86
+        ],
+        [
+          144,
+          76,
+          137
+        ]
+      ],
+      "source_ids": [
+        10
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 61,
+      "name": "inferior_parietal_l",
+      "display_name": "Parietal inferior · esquerdo",
+      "latin": "Inferior Parietal",
+      "group": "Córtex parietal",
+      "color": "#C4A28C",
+      "centroid": [
+        30.15122584587184,
+        46.56511112808371,
+        109.71985030168793
+      ],
+      "anchor": [
+        30,
+        47,
+        110
+      ],
+      "volume_ml": 26.186,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          8,
+          18,
+          86
+        ],
+        [
+          49,
+          76,
+          137
+        ]
+      ],
+      "source_ids": [
+        61
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 9,
+      "name": "superior_parietal_r",
+      "display_name": "Parietal superior · direito",
+      "latin": "Superior Parietal",
+      "group": "Córtex parietal",
+      "color": "#C4A28C",
+      "centroid": [
+        101.86644597320644,
+        49.069828790151554,
+        130.4045931826411
+      ],
+      "anchor": [
+        102,
+        50,
+        132
+      ],
+      "volume_ml": 19.333,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          82,
+          18,
+          94
+        ],
+        [
+          121,
+          76,
+          154
+        ]
+      ],
+      "source_ids": [
+        9
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 60,
+      "name": "superior_parietal_l",
+      "display_name": "Parietal superior · esquerdo",
+      "latin": "Superior Parietal",
+      "group": "Córtex parietal",
+      "color": "#C4A28C",
+      "centroid": [
+        50.13355402679357,
+        49.069828790151554,
+        130.4045931826411
+      ],
+      "anchor": [
+        50,
+        50,
+        132
+      ],
+      "volume_ml": 19.333,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          31,
+          18,
+          94
+        ],
+        [
+          70,
+          76,
+          154
+        ]
+      ],
+      "source_ids": [
+        60
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 31,
+      "name": "precuneus_r",
+      "display_name": "Pré-cúneo · direito",
+      "latin": "Precuneus",
+      "group": "Córtex parietal",
+      "color": "#C4A28C",
+      "centroid": [
+        85.06994459833795,
+        51.99611122949073,
+        117.65720221606648
+      ],
+      "anchor": [
+        85,
+        52,
+        118
+      ],
+      "volume_ml": 18.772,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          76,
+          27,
+          83
+        ],
+        [
+          103,
+          75,
+          157
+        ]
+      ],
+      "source_ids": [
+        31
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 82,
+      "name": "precuneus_l",
+      "display_name": "Pré-cúneo · esquerdo",
+      "latin": "Precuneus",
+      "group": "Córtex parietal",
+      "color": "#C4A28C",
+      "centroid": [
+        66.92957221245538,
+        51.996910127324064,
+        117.65718395397155
+      ],
+      "anchor": [
+        67,
+        52,
+        118
+      ],
+      "volume_ml": 18.771,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          49,
+          27,
+          83
+        ],
+        [
+          75,
+          75,
+          157
+        ]
+      ],
+      "source_ids": [
+        82
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 36,
+      "name": "entorhinal_r",
+      "display_name": "Córtex entorrinal · direito",
+      "latin": "Entorhinal",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        98.22308892355694,
+        106.47332293291731,
+        46.12886115444618
+      ],
+      "anchor": [
+        97,
+        106,
+        44
+      ],
+      "volume_ml": 3.205,
+      "faces": 6028,
+      "bounds_voxel": [
+        [
+          87,
+          89,
+          34
+        ],
+        [
+          110,
+          121,
+          59
+        ]
+      ],
+      "source_ids": [
+        36
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 87,
+      "name": "entorhinal_l",
+      "display_name": "Córtex entorrinal · esquerdo",
+      "latin": "Entorhinal",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        53.77691107644306,
+        106.47332293291731,
+        46.12886115444618
+      ],
+      "anchor": [
+        55,
+        106,
+        44
+      ],
+      "volume_ml": 3.205,
+      "faces": 6028,
+      "bounds_voxel": [
+        [
+          42,
+          89,
+          34
+        ],
+        [
+          65,
+          121,
+          59
+        ]
+      ],
+      "source_ids": [
+        87
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 24,
+      "name": "fusiform_r",
+      "display_name": "Giro fusiforme · direito",
+      "latin": "Fusiform",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        111.6980403800475,
+        68.85347387173397,
+        56.60918942992874
+      ],
+      "anchor": [
+        112,
+        69,
+        57
+      ],
+      "volume_ml": 13.472,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          94,
+          31,
+          29
+        ],
+        [
+          127,
+          116,
+          76
+        ]
+      ],
+      "source_ids": [
+        24
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 75,
+      "name": "fusiform_l",
+      "display_name": "Giro fusiforme · esquerdo",
+      "latin": "Fusiform",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        40.30195961995249,
+        68.85347387173397,
+        56.60918942992874
+      ],
+      "anchor": [
+        40,
+        69,
+        57
+      ],
+      "volume_ml": 13.472,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          25,
+          31,
+          29
+        ],
+        [
+          58,
+          116,
+          76
+        ]
+      ],
+      "source_ids": [
+        75
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 18,
+      "name": "parahippocampal_r",
+      "display_name": "Giro para-hipocampal · direito",
+      "latin": "Parahippocampal",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        99.74519940915805,
+        79.86558345642541,
+        60.5609305760709
+      ],
+      "anchor": [
+        101,
+        80,
+        60
+      ],
+      "volume_ml": 2.708,
+      "faces": 6800,
+      "bounds_voxel": [
+        [
+          87,
+          67,
+          46
+        ],
+        [
+          113,
+          94,
+          76
+        ]
+      ],
+      "source_ids": [
+        18
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 69,
+      "name": "parahippocampal_l",
+      "display_name": "Giro para-hipocampal · esquerdo",
+      "latin": "Parahippocampal",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        52.25480059084195,
+        79.86558345642541,
+        60.5609305760709
+      ],
+      "anchor": [
+        51,
+        80,
+        60
+      ],
+      "volume_ml": 2.708,
+      "faces": 6800,
+      "bounds_voxel": [
+        [
+          39,
+          67,
+          46
+        ],
+        [
+          65,
+          94,
+          76
+        ]
+      ],
+      "source_ids": [
+        69
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 14,
+      "name": "transverse_temporal_r",
+      "display_name": "Giro temporal transverso · direito",
+      "latin": "Transverse Temporal",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        121.66471838469712,
+        91.18969181721573,
+        86.25929861849097
+      ],
+      "anchor": [
+        122,
+        91,
+        88
+      ],
+      "volume_ml": 1.882,
+      "faces": 4374,
+      "bounds_voxel": [
+        [
+          110,
+          77,
+          77
+        ],
+        [
+          134,
+          106,
+          95
+        ]
+      ],
+      "source_ids": [
+        14
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 65,
+      "name": "transverse_temporal_l",
+      "display_name": "Giro temporal transverso · esquerdo",
+      "latin": "Transverse Temporal",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        30.33528161530287,
+        91.18969181721573,
+        86.25929861849097
+      ],
+      "anchor": [
+        30,
+        91,
+        88
+      ],
+      "volume_ml": 1.882,
+      "faces": 4374,
+      "bounds_voxel": [
+        [
+          18,
+          77,
+          77
+        ],
+        [
+          42,
+          106,
+          95
+        ]
+      ],
+      "source_ids": [
+        65
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 3,
+      "name": "inferior_temporal_r",
+      "display_name": "Temporal inferior · direito",
+      "latin": "Inferior temporal",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        125.20617603550296,
+        86.22793392504931,
+        48.020463510848124
+      ],
+      "anchor": [
+        125,
+        86,
+        49
+      ],
+      "volume_ml": 16.224,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          95,
+          46,
+          26
+        ],
+        [
+          144,
+          125,
+          76
+        ]
+      ],
+      "source_ids": [
+        3
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 54,
+      "name": "inferior_temporal_l",
+      "display_name": "Temporal inferior · esquerdo",
+      "latin": "Inferior temporal",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        26.79382396449704,
+        86.22793392504931,
+        48.020463510848124
+      ],
+      "anchor": [
+        27,
+        86,
+        49
+      ],
+      "volume_ml": 16.224,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          8,
+          46,
+          26
+        ],
+        [
+          57,
+          125,
+          76
+        ]
+      ],
+      "source_ids": [
+        54
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 28,
+      "name": "middle_temporal_r",
+      "display_name": "Temporal médio · direito",
+      "latin": "Middle Temporal",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        133.25004418366265,
+        79.41939132586334,
+        66.70609027605953
+      ],
+      "anchor": [
+        133,
+        78,
+        65
+      ],
+      "volume_ml": 28.291,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          107,
+          39,
+          31
+        ],
+        [
+          148,
+          132,
+          95
+        ]
+      ],
+      "source_ids": [
+        28
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 79,
+      "name": "middle_temporal_l",
+      "display_name": "Temporal médio · esquerdo",
+      "latin": "Middle Temporal",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        18.74995581633735,
+        79.41939132586334,
+        66.70609027605953
+      ],
+      "anchor": [
+        19,
+        78,
+        65
+      ],
+      "volume_ml": 28.291,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          4,
+          39,
+          31
+        ],
+        [
+          45,
+          132,
+          95
+        ]
+      ],
+      "source_ids": [
+        79
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 45,
+      "name": "superior_temporal_r",
+      "display_name": "Temporal superior · direito",
+      "latin": "Superior Temporal",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        127.06299554258214,
+        102.91116721233877,
+        69.40278490000395
+      ],
+      "anchor": [
+        128,
+        103,
+        68
+      ],
+      "volume_ml": 25.351,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          95,
+          59,
+          32
+        ],
+        [
+          148,
+          137,
+          99
+        ]
+      ],
+      "source_ids": [
+        45
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 96,
+      "name": "superior_temporal_l",
+      "display_name": "Temporal superior · esquerdo",
+      "latin": "Superior Temporal",
+      "group": "Córtex temporal",
+      "color": "#D8C992",
+      "centroid": [
+        24.937004457417853,
+        102.91116721233877,
+        69.40278490000395
+      ],
+      "anchor": [
+        24,
+        103,
+        68
+      ],
+      "volume_ml": 25.351,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          4,
+          59,
+          32
+        ],
+        [
+          57,
+          137,
+          99
+        ]
+      ],
+      "source_ids": [
+        96
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 30,
+      "name": "caudal_anterior_cingulate_r",
+      "display_name": "Cíngulo anterior caudal · direito",
+      "latin": "Caudal Anterior Cingulate",
+      "group": "Cíngulo e ínsula",
+      "color": "#D6AEC4",
+      "centroid": [
+        81.13910186199342,
+        131.7053669222344,
+        105.41484118291348
+      ],
+      "anchor": [
+        81,
+        132,
+        105
+      ],
+      "volume_ml": 3.652,
+      "faces": 7240,
+      "bounds_voxel": [
+        [
+          77,
+          111,
+          85
+        ],
+        [
+          90,
+          153,
+          121
+        ]
+      ],
+      "source_ids": [
+        30
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 81,
+      "name": "caudal_anterior_cingulate_l",
+      "display_name": "Cíngulo anterior caudal · esquerdo",
+      "latin": "Caudal Anterior Cingulate",
+      "group": "Cíngulo e ínsula",
+      "color": "#D6AEC4",
+      "centroid": [
+        70.86089813800658,
+        131.7053669222344,
+        105.41484118291348
+      ],
+      "anchor": [
+        71,
+        132,
+        105
+      ],
+      "volume_ml": 3.652,
+      "faces": 7240,
+      "bounds_voxel": [
+        [
+          62,
+          111,
+          85
+        ],
+        [
+          75,
+          153,
+          121
+        ]
+      ],
+      "source_ids": [
+        81
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 8,
+      "name": "rostral_anterior_cingulate_r",
+      "display_name": "Cíngulo anterior rostral · direito",
+      "latin": "Rostral Anterior Cingulate",
+      "group": "Cíngulo e ínsula",
+      "color": "#D6AEC4",
+      "centroid": [
+        81.41597077244259,
+        147.23512526096033,
+        80.1651878914405
+      ],
+      "anchor": [
+        79,
+        148,
+        80
+      ],
+      "volume_ml": 3.832,
+      "faces": 6836,
+      "bounds_voxel": [
+        [
+          76,
+          119,
+          63
+        ],
+        [
+          90,
+          158,
+          101
+        ]
+      ],
+      "source_ids": [
+        8
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 59,
+      "name": "rostral_anterior_cingulate_l",
+      "display_name": "Cíngulo anterior rostral · esquerdo",
+      "latin": "Rostral Anterior Cingulate",
+      "group": "Cíngulo e ínsula",
+      "color": "#D6AEC4",
+      "centroid": [
+        70.51242728714966,
+        147.3051295610788,
+        80.31887890005288
+      ],
+      "anchor": [
+        73,
+        148,
+        80
+      ],
+      "volume_ml": 3.782,
+      "faces": 6688,
+      "bounds_voxel": [
+        [
+          62,
+          119,
+          63
+        ],
+        [
+          75,
+          158,
+          101
+        ]
+      ],
+      "source_ids": [
+        59
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 47,
+      "name": "posterior_cingulate_r",
+      "display_name": "Cíngulo posterior · direito",
+      "latin": "Posterior Cingulate",
+      "group": "Cíngulo e ínsula",
+      "color": "#D6AEC4",
+      "centroid": [
+        81.4071336167067,
+        91.22639068564037,
+        116.58584365182037
+      ],
+      "anchor": [
+        81,
+        91,
+        118
+      ],
+      "volume_ml": 5.411,
+      "faces": 9630,
+      "bounds_voxel": [
+        [
+          76,
+          70,
+          76
+        ],
+        [
+          93,
+          156,
+          128
+        ]
+      ],
+      "source_ids": [
+        47
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 98,
+      "name": "posterior_cingulate_l",
+      "display_name": "Cíngulo posterior · esquerdo",
+      "latin": "Posterior Cingulate",
+      "group": "Cíngulo e ínsula",
+      "color": "#D6AEC4",
+      "centroid": [
+        70.48170501697473,
+        91.12900792153904,
+        116.59769898151642
+      ],
+      "anchor": [
+        70,
+        91,
+        118
+      ],
+      "volume_ml": 5.302,
+      "faces": 9350,
+      "bounds_voxel": [
+        [
+          59,
+          70,
+          76
+        ],
+        [
+          75,
+          156,
+          128
+        ]
+      ],
+      "source_ids": [
+        98
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 33,
+      "name": "isthmus_cingulate_r",
+      "display_name": "Istmo do cíngulo · direito",
+      "latin": "Isthmus Cingulate",
+      "group": "Cíngulo e ínsula",
+      "color": "#D6AEC4",
+      "centroid": [
+        84.03049469166479,
+        65.21481816128303,
+        96.8951886153151
+      ],
+      "anchor": [
+        84,
+        65,
+        97
+      ],
+      "volume_ml": 4.427,
+      "faces": 8340,
+      "bounds_voxel": [
+        [
+          77,
+          53,
+          72
+        ],
+        [
+          100,
+          80,
+          115
+        ]
+      ],
+      "source_ids": [
+        33
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 84,
+      "name": "isthmus_cingulate_l",
+      "display_name": "Istmo do cíngulo · esquerdo",
+      "latin": "Isthmus Cingulate",
+      "group": "Cíngulo e ínsula",
+      "color": "#D6AEC4",
+      "centroid": [
+        67.96950530833521,
+        65.21481816128303,
+        96.8951886153151
+      ],
+      "anchor": [
+        68,
+        65,
+        97
+      ],
+      "volume_ml": 4.427,
+      "faces": 8340,
+      "bounds_voxel": [
+        [
+          52,
+          53,
+          72
+        ],
+        [
+          75,
+          80,
+          115
+        ]
+      ],
+      "source_ids": [
+        84
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 23,
+      "name": "insula_r",
+      "display_name": "Ínsula · direito",
+      "latin": "Insula",
+      "group": "Cíngulo e ínsula",
+      "color": "#D6AEC4",
+      "centroid": [
+        113.1393761159542,
+        112.76735637012919,
+        78.42810629135595
+      ],
+      "anchor": [
+        115,
+        115,
+        78
+      ],
+      "volume_ml": 9.521,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          103,
+          82,
+          59
+        ],
+        [
+          122,
+          142,
+          99
+        ]
+      ],
+      "source_ids": [
+        23
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 74,
+      "name": "insula_l",
+      "display_name": "Ínsula · esquerdo",
+      "latin": "Insula",
+      "group": "Cíngulo e ínsula",
+      "color": "#D6AEC4",
+      "centroid": [
+        38.86062388404579,
+        112.76735637012919,
+        78.42810629135595
+      ],
+      "anchor": [
+        37,
+        115,
+        78
+      ],
+      "volume_ml": 9.521,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          30,
+          82,
+          59
+        ],
+        [
+          49,
+          142,
+          99
+        ]
+      ],
+      "source_ids": [
+        74
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 19,
+      "name": "amygdala_r",
+      "display_name": "Amígdala · direito",
+      "latin": "Amygdala",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        99.39151515151515,
+        106.55878787878788,
+        57.335151515151516
+      ],
+      "anchor": [
+        99,
+        107,
+        57
+      ],
+      "volume_ml": 1.65,
+      "faces": 2894,
+      "bounds_voxel": [
+        [
+          88,
+          78,
+          47
+        ],
+        [
+          109,
+          111,
+          71
+        ]
+      ],
+      "source_ids": [
+        19
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 70,
+      "name": "amygdala_l",
+      "display_name": "Amígdala · esquerdo",
+      "latin": "Amygdala",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        52.60848484848485,
+        106.55878787878788,
+        57.335151515151516
+      ],
+      "anchor": [
+        53,
+        107,
+        57
+      ],
+      "volume_ml": 1.65,
+      "faces": 2894,
+      "bounds_voxel": [
+        [
+          43,
+          78,
+          47
+        ],
+        [
+          64,
+          111,
+          71
+        ]
+      ],
+      "source_ids": [
+        70
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 26,
+      "name": "ventral_diencephalon_r",
+      "display_name": "Diencéfalo ventral · direito",
+      "latin": "Ventral Diencephalon",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        86.3363368283093,
+        94.23050458715596,
+        67.68741808650066
+      ],
+      "anchor": [
+        86,
+        94,
+        68
+      ],
+      "volume_ml": 6.104,
+      "faces": 7008,
+      "bounds_voxel": [
+        [
+          76,
+          82,
+          57
+        ],
+        [
+          103,
+          112,
+          81
+        ]
+      ],
+      "source_ids": [
+        26
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 77,
+      "name": "ventral_diencephalon_l",
+      "display_name": "Diencéfalo ventral · esquerdo",
+      "latin": "Ventral Diencephalon",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        65.66027531956736,
+        94.2333661094723,
+        67.68551294657489
+      ],
+      "anchor": [
+        66,
+        94,
+        68
+      ],
+      "volume_ml": 6.102,
+      "faces": 6986,
+      "bounds_voxel": [
+        [
+          49,
+          82,
+          57
+        ],
+        [
+          75,
+          112,
+          81
+        ]
+      ],
+      "source_ids": [
+        77
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 27,
+      "name": "pallidum_r",
+      "display_name": "Globo pálido · direito",
+      "latin": "Pallidum",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        94.6766607877719,
+        108.67313345091122,
+        76.06819517930629
+      ],
+      "anchor": [
+        95,
+        109,
+        76
+      ],
+      "volume_ml": 1.701,
+      "faces": 2964,
+      "bounds_voxel": [
+        [
+          85,
+          97,
+          69
+        ],
+        [
+          103,
+          119,
+          84
+        ]
+      ],
+      "source_ids": [
+        27
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 78,
+      "name": "pallidum_l",
+      "display_name": "Globo pálido · esquerdo",
+      "latin": "Pallidum",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        57.3233392122281,
+        108.67313345091122,
+        76.06819517930629
+      ],
+      "anchor": [
+        57,
+        109,
+        76
+      ],
+      "volume_ml": 1.701,
+      "faces": 2964,
+      "bounds_voxel": [
+        [
+          49,
+          97,
+          69
+        ],
+        [
+          67,
+          119,
+          84
+        ]
+      ],
+      "source_ids": [
+        78
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 48,
+      "name": "hippocampus_r",
+      "display_name": "Hipocampo · direito",
+      "latin": "Hippocampus",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        101.88815509160631,
+        88.50276949296975,
+        63.52215594375799
+      ],
+      "anchor": [
+        103,
+        88,
+        64
+      ],
+      "volume_ml": 4.694,
+      "faces": 7562,
+      "bounds_voxel": [
+        [
+          88,
+          69,
+          47
+        ],
+        [
+          112,
+          106,
+          86
+        ]
+      ],
+      "source_ids": [
+        48
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 99,
+      "name": "hippocampus_l",
+      "display_name": "Hipocampo · esquerdo",
+      "latin": "Hippocampus",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        50.11184490839369,
+        88.50276949296975,
+        63.52215594375799
+      ],
+      "anchor": [
+        49,
+        88,
+        64
+      ],
+      "volume_ml": 4.694,
+      "faces": 7562,
+      "bounds_voxel": [
+        [
+          40,
+          69,
+          47
+        ],
+        [
+          64,
+          106,
+          86
+        ]
+      ],
+      "source_ids": [
+        99
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 49,
+      "name": "caudate_r",
+      "display_name": "Núcleo caudado · direito",
+      "latin": "Caudate",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        89.92202729044834,
+        120.58231437178806,
+        88.4300903774588
+      ],
+      "anchor": [
+        90,
+        121,
+        88
+      ],
+      "volume_ml": 5.643,
+      "faces": 7536,
+      "bounds_voxel": [
+        [
+          81,
+          82,
+          68
+        ],
+        [
+          98,
+          138,
+          105
+        ]
+      ],
+      "source_ids": [
+        49
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 100,
+      "name": "caudate_l",
+      "display_name": "Núcleo caudado · esquerdo",
+      "latin": "Caudate",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        62.07797270955166,
+        120.58231437178806,
+        88.4300903774588
+      ],
+      "anchor": [
+        62,
+        121,
+        88
+      ],
+      "volume_ml": 5.643,
+      "faces": 7536,
+      "bounds_voxel": [
+        [
+          54,
+          82,
+          68
+        ],
+        [
+          71,
+          138,
+          105
+        ]
+      ],
+      "source_ids": [
+        100
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 25,
+      "name": "basal_forebrain_r",
+      "display_name": "Prosencéfalo basal · direito",
+      "latin": "Basal Forebrain",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        83.08854166666667,
+        115.03645833333333,
+        66.11979166666667
+      ],
+      "anchor": [
+        83,
+        115,
+        66
+      ],
+      "volume_ml": 0.192,
+      "faces": 572,
+      "bounds_voxel": [
+        [
+          77,
+          112,
+          63
+        ],
+        [
+          90,
+          117,
+          69
+        ]
+      ],
+      "source_ids": [
+        25
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 76,
+      "name": "basal_forebrain_l",
+      "display_name": "Prosencéfalo basal · esquerdo",
+      "latin": "Basal Forebrain",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        68.91145833333333,
+        115.03645833333333,
+        66.11979166666667
+      ],
+      "anchor": [
+        69,
+        115,
+        66
+      ],
+      "volume_ml": 0.192,
+      "faces": 572,
+      "bounds_voxel": [
+        [
+          62,
+          112,
+          63
+        ],
+        [
+          75,
+          117,
+          69
+        ]
+      ],
+      "source_ids": [
+        76
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 21,
+      "name": "putamen_r",
+      "display_name": "Putâmen · direito",
+      "latin": "Putamen",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        101.52278901297917,
+        113.57757319649865,
+        78.24388771506187
+      ],
+      "anchor": [
+        102,
+        114,
+        78
+      ],
+      "volume_ml": 6.626,
+      "faces": 7774,
+      "bounds_voxel": [
+        [
+          89,
+          89,
+          65
+        ],
+        [
+          110,
+          132,
+          92
+        ]
+      ],
+      "source_ids": [
+        21
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 72,
+      "name": "putamen_l",
+      "display_name": "Putâmen · esquerdo",
+      "latin": "Putamen",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        50.477210987020825,
+        113.57757319649865,
+        78.24388771506187
+      ],
+      "anchor": [
+        50,
+        114,
+        78
+      ],
+      "volume_ml": 6.626,
+      "faces": 7774,
+      "bounds_voxel": [
+        [
+          42,
+          89,
+          65
+        ],
+        [
+          63,
+          132,
+          92
+        ]
+      ],
+      "source_ids": [
+        72
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 17,
+      "name": "optic_chiasm",
+      "display_name": "Quiasma óptico e tratos",
+      "latin": "Optic Chiasm",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        76.0,
+        114.28161668839635,
+        58.41134289439374
+      ],
+      "anchor": [
+        73,
+        116,
+        57
+      ],
+      "volume_ml": 1.534,
+      "faces": 5048,
+      "bounds_voxel": [
+        [
+          59,
+          100,
+          46
+        ],
+        [
+          93,
+          133,
+          67
+        ]
+      ],
+      "source_ids": [
+        68,
+        17
+      ],
+      "hemisphere": "midline",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 40,
+      "name": "thalamus_r",
+      "display_name": "Tálamo · direito",
+      "latin": "Thalamus",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        87.73689978083283,
+        92.89639370392509,
+        84.7498505678422
+      ],
+      "anchor": [
+        88,
+        93,
+        85
+      ],
+      "volume_ml": 10.038,
+      "faces": 8712,
+      "bounds_voxel": [
+        [
+          76,
+          75,
+          72
+        ],
+        [
+          102,
+          111,
+          98
+        ]
+      ],
+      "source_ids": [
+        40
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 91,
+      "name": "thalamus_l",
+      "display_name": "Tálamo · esquerdo",
+      "latin": "Thalamus",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        64.26193085583341,
+        92.89518780512105,
+        84.75032380193285
+      ],
+      "anchor": [
+        64,
+        93,
+        85
+      ],
+      "volume_ml": 10.037,
+      "faces": 8704,
+      "bounds_voxel": [
+        [
+          50,
+          75,
+          72
+        ],
+        [
+          75,
+          111,
+          98
+        ]
+      ],
+      "source_ids": [
+        91
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 4,
+      "name": "accumbens_r",
+      "display_name": "Área accumbens · direito",
+      "latin": "Accumbens Area",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        84.98553345388788,
+        122.80289330922243,
+        70.74141048824593
+      ],
+      "anchor": [
+        85,
+        123,
+        71
+      ],
+      "volume_ml": 0.553,
+      "faces": 1292,
+      "bounds_voxel": [
+        [
+          80,
+          117,
+          65
+        ],
+        [
+          90,
+          130,
+          76
+        ]
+      ],
+      "source_ids": [
+        4
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 55,
+      "name": "accumbens_l",
+      "display_name": "Área accumbens · esquerdo",
+      "latin": "Accumbens Area",
+      "group": "Estruturas profundas",
+      "color": "#A9C9D4",
+      "centroid": [
+        67.01446654611212,
+        122.80289330922243,
+        70.74141048824593
+      ],
+      "anchor": [
+        67,
+        123,
+        71
+      ],
+      "volume_ml": 0.553,
+      "faces": 1292,
+      "bounds_voxel": [
+        [
+          62,
+          117,
+          65
+        ],
+        [
+          72,
+          130,
+          76
+        ]
+      ],
+      "source_ids": [
+        55
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 39,
+      "name": "cerebellum_white_r",
+      "display_name": "Cerebelo · substância branca · direito",
+      "latin": "Cerebellum White Matter",
+      "group": "Tronco e cerebelo",
+      "color": "#E3BC8A",
+      "centroid": [
+        94.64966535887376,
+        58.95738133702592,
+        41.78359873836449
+      ],
+      "anchor": [
+        95,
+        59,
+        42
+      ],
+      "volume_ml": 12.999,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          76,
+          36,
+          30
+        ],
+        [
+          113,
+          89,
+          60
+        ]
+      ],
+      "source_ids": [
+        39
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 90,
+      "name": "cerebellum_white_l",
+      "display_name": "Cerebelo · substância branca · esquerdo",
+      "latin": "Cerebellum White Matter",
+      "group": "Tronco e cerebelo",
+      "color": "#E3BC8A",
+      "centroid": [
+        57.34889983074319,
+        58.95576242498846,
+        41.78442837359594
+      ],
+      "anchor": [
+        57,
+        59,
+        42
+      ],
+      "volume_ml": 12.998,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          39,
+          36,
+          30
+        ],
+        [
+          71,
+          89,
+          60
+        ]
+      ],
+      "source_ids": [
+        90
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 46,
+      "name": "cerebellum_gray_r",
+      "display_name": "Cerebelo · substância cinzenta · direito",
+      "latin": "Cerebellum Gray Matter",
+      "group": "Tronco e cerebelo",
+      "color": "#E3BC8A",
+      "centroid": [
+        102.81461202600065,
+        47.73377416501706,
+        39.198121551615216
+      ],
+      "anchor": [
+        105,
+        46,
+        41
+      ],
+      "volume_ml": 71.229,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          77,
+          18,
+          10
+        ],
+        [
+          134,
+          88,
+          73
+        ]
+      ],
+      "source_ids": [
+        46
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 97,
+      "name": "cerebellum_gray_l",
+      "display_name": "Cerebelo · substância cinzenta · esquerdo",
+      "latin": "Cerebellum Gray Matter",
+      "group": "Tronco e cerebelo",
+      "color": "#E3BC8A",
+      "centroid": [
+        49.185387973999354,
+        47.73377416501706,
+        39.198121551615216
+      ],
+      "anchor": [
+        47,
+        46,
+        41
+      ],
+      "volume_ml": 71.229,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          18,
+          18,
+          10
+        ],
+        [
+          75,
+          88,
+          73
+        ]
+      ],
+      "source_ids": [
+        97
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 11,
+      "name": "brainstem",
+      "display_name": "Tronco encefálico",
+      "latin": "Brainstem",
+      "group": "Tronco e cerebelo",
+      "color": "#E3BC8A",
+      "centroid": [
+        76.0,
+        79.56456907925015,
+        41.72524775258491
+      ],
+      "anchor": [
+        76,
+        80,
+        42
+      ],
+      "volume_ml": 32.593,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          56,
+          60,
+          0
+        ],
+        [
+          96,
+          105,
+          80
+        ]
+      ],
+      "source_ids": [
+        62,
+        11
+      ],
+      "hemisphere": "midline",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 50,
+      "name": "vermis_i_v",
+      "display_name": "Vermis · lóbulos I–V",
+      "latin": "Vermal lobules I-V",
+      "group": "Tronco e cerebelo",
+      "color": "#E3BC8A",
+      "centroid": [
+        76.0,
+        57.64126196384261,
+        64.10799952735437
+      ],
+      "anchor": [
+        76,
+        58,
+        64
+      ],
+      "volume_ml": 8.463,
+      "faces": 8256,
+      "bounds_voxel": [
+        [
+          68,
+          39,
+          48
+        ],
+        [
+          84,
+          71,
+          80
+        ]
+      ],
+      "source_ids": [
+        101,
+        50
+      ],
+      "hemisphere": "midline",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 20,
+      "name": "vermis_viii_x",
+      "display_name": "Vermis · lóbulos VIII–X",
+      "latin": "Vermal lobules VIII-X",
+      "group": "Tronco e cerebelo",
+      "color": "#E3BC8A",
+      "centroid": [
+        76.0,
+        49.88009387668018,
+        40.35033070194154
+      ],
+      "anchor": [
+        76,
+        50,
+        40
+      ],
+      "volume_ml": 4.687,
+      "faces": 6576,
+      "bounds_voxel": [
+        [
+          67,
+          35,
+          29
+        ],
+        [
+          85,
+          67,
+          52
+        ]
+      ],
+      "source_ids": [
+        71,
+        20
+      ],
+      "hemisphere": "midline",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 2,
+      "name": "vermis_vi_vii",
+      "display_name": "Vermis · lóbulos VI–VII",
+      "latin": "Vermal lobules VI-VII",
+      "group": "Tronco e cerebelo",
+      "color": "#E3BC8A",
+      "centroid": [
+        76.0,
+        41.39368966329174,
+        55.81186720037674
+      ],
+      "anchor": [
+        76,
+        41,
+        56
+      ],
+      "volume_ml": 4.247,
+      "faces": 6456,
+      "bounds_voxel": [
+        [
+          68,
+          30,
+          42
+        ],
+        [
+          84,
+          55,
+          70
+        ]
+      ],
+      "source_ids": [
+        53,
+        2
+      ],
+      "hemisphere": "midline",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 5,
+      "name": "inferior_lateral_ventricle_r",
+      "display_name": "Corno inferior do ventrículo lateral · direito",
+      "latin": "Inferior Lateral Ventricle",
+      "group": "Ventrículos",
+      "color": "#B9CFA7",
+      "centroid": [
+        107.64966949952786,
+        94.16241737488197,
+        61.801699716713884
+      ],
+      "anchor": [
+        103,
+        96,
+        65
+      ],
+      "volume_ml": 1.059,
+      "faces": 4130,
+      "bounds_voxel": [
+        [
+          94,
+          72,
+          47
+        ],
+        [
+          115,
+          107,
+          76
+        ]
+      ],
+      "source_ids": [
+        5
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 56,
+      "name": "inferior_lateral_ventricle_l",
+      "display_name": "Corno inferior do ventrículo lateral · esquerdo",
+      "latin": "Inferior Lateral Ventricle",
+      "group": "Ventrículos",
+      "color": "#B9CFA7",
+      "centroid": [
+        44.35033050047215,
+        94.16241737488197,
+        61.801699716713884
+      ],
+      "anchor": [
+        49,
+        96,
+        65
+      ],
+      "volume_ml": 1.059,
+      "faces": 4130,
+      "bounds_voxel": [
+        [
+          37,
+          72,
+          47
+        ],
+        [
+          58,
+          107,
+          76
+        ]
+      ],
+      "source_ids": [
+        56
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 29,
+      "name": "third_ventricle",
+      "display_name": "III ventrículo",
+      "latin": "Third Ventricle",
+      "group": "Ventrículos",
+      "color": "#B9CFA7",
+      "centroid": [
+        76.0,
+        97.77875072971395,
+        77.60245183887916
+      ],
+      "anchor": [
+        76,
+        97,
+        75
+      ],
+      "volume_ml": 1.713,
+      "faces": 4612,
+      "bounds_voxel": [
+        [
+          67,
+          73,
+          58
+        ],
+        [
+          85,
+          114,
+          93
+        ]
+      ],
+      "source_ids": [
+        80,
+        29
+      ],
+      "hemisphere": "midline",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 37,
+      "name": "fourth_ventricle",
+      "display_name": "IV ventrículo",
+      "latin": "Fourth Ventricle",
+      "group": "Ventrículos",
+      "color": "#B9CFA7",
+      "centroid": [
+        76.0,
+        66.85187861271676,
+        46.880780346820806
+      ],
+      "anchor": [
+        76,
+        67,
+        47
+      ],
+      "volume_ml": 1.384,
+      "faces": 3032,
+      "bounds_voxel": [
+        [
+          64,
+          56,
+          36
+        ],
+        [
+          88,
+          97,
+          68
+        ]
+      ],
+      "source_ids": [
+        88,
+        37
+      ],
+      "hemisphere": "midline",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 41,
+      "name": "lateral_ventricle_r",
+      "display_name": "Ventrículo lateral · direito",
+      "latin": "Lateral Ventricle",
+      "group": "Ventrículos",
+      "color": "#B9CFA7",
+      "centroid": [
+        90.68223615464994,
+        93.16133751306165,
+        92.17021943573668
+      ],
+      "anchor": [
+        89,
+        91,
+        99
+      ],
+      "volume_ml": 9.57,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          77,
+          31,
+          73
+        ],
+        [
+          112,
+          141,
+          106
+        ]
+      ],
+      "source_ids": [
+        41
+      ],
+      "hemisphere": "R",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    },
+    {
+      "id": 92,
+      "name": "lateral_ventricle_l",
+      "display_name": "Ventrículo lateral · esquerdo",
+      "latin": "Lateral Ventricle",
+      "group": "Ventrículos",
+      "color": "#B9CFA7",
+      "centroid": [
+        61.31776384535005,
+        93.16133751306165,
+        92.17021943573668
+      ],
+      "anchor": [
+        63,
+        91,
+        99
+      ],
+      "volume_ml": 9.57,
+      "faces": 14000,
+      "bounds_voxel": [
+        [
+          40,
+          31,
+          73
+        ],
+        [
+          75,
+          141,
+          106
+        ]
+      ],
+      "source_ids": [
+        92
+      ],
+      "hemisphere": "L",
+      "note": "Parcela anatômica do atlas médio CerebrA. Os limites representam a convenção do atlas."
+    }
+  ],
+  "source": {
+    "url": "https://doi.gin.g-node.org/10.12751/g-node.be5e62/",
+    "attribution": "CerebrA · Manera et al. (2020) / ICBM152 · Fonov et al. / McGill",
+    "license": "CerebrA CC0 · template sob licença McGill"
+  },
+  "coverage": "Ressonância T1/T2 do atlas médio ICBM152 2009c simétrico, 1 mm. CerebrA: 62 parcelas corticais e 33 estruturas profundas, cerebelares ou ventriculares. Não corresponde à pessoa da TC. Limites de parcelas seguem a convenção do atlas."
+}

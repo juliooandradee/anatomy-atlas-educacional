@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "subject": "s0720",
+  "shape": [
+    174,
+    149,
+    264
+  ],
+  "spacing_mm": [
+    2.0,
+    2.0,
+    2.0
+  ],
+  "crop_offset": [
+    28,
+    30,
+    70
+  ],
+  "center_mm": [
+    173.0,
+    148.0,
+    263.0
+  ],
+  "affine_ras": [
+    [
+      2.0,
+      0.0,
+      0.0,
+      -184.55078125
+    ],
+    [
+      0.0,
+      2.0,
+      0.0,
+      29.94921875
+    ],
+    [
+      0.0,
+      0.0,
+      2.0,
+      287.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_affine_ras": [
+    [
+      1.5,
+      0.0,
+      0.0,
+      -240.55078125
+    ],
+    [
+      0.0,
+      1.5,
+      0.0,
+      -30.05078125
+    ],
+    [
+      0.0,
+      0.0,
+      1.5,
+      147.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "storage": "uint8 C-order; index = i*nj*nk + j*nk + k",
+  "window": {
+    "width": 400,
+    "level": 50
+  },
+  "organs": [
+    {
+      "id": 1,
+      "name": "liver",
+      "display_name": "Fígado",
+      "latin": "Hepar",
+      "color": "#cf859c",
+      "centroid": [
+        117.01313780046442,
+        91.00893548252128,
+        127.82657528085187
+      ],
+      "anchor": [
+        117,
+        91,
+        128
+      ],
+      "volume_ml": 3059.3,
+      "faces": 40000,
+      "bounds_voxel": [
+        [
+          40,
+          31,
+          62
+        ],
+        [
+          163,
+          138,
+          168
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "spleen",
+      "display_name": "Baço",
+      "latin": "Lien",
+      "color": "#b7a0db",
+      "centroid": [
+        29.892310012712503,
+        58.021115683781865,
+        124.8135571308526
+      ],
+      "anchor": [
+        30,
+        58,
+        125
+      ],
+      "volume_ml": 371.3,
+      "faces": 25048,
+      "bounds_voxel": [
+        [
+          10,
+          34,
+          94
+        ],
+        [
+          64,
+          94,
+          152
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "name": "stomach",
+      "display_name": "Estômago",
+      "latin": "Gaster",
+      "color": "#e8b195",
+      "centroid": [
+        54.376352107422605,
+        96.54133073193125,
+        126.22026798267007
+      ],
+      "anchor": [
+        54,
+        97,
+        126
+      ],
+      "volume_ml": 557.6,
+      "faces": 33440,
+      "bounds_voxel": [
+        [
+          28,
+          56,
+          92
+        ],
+        [
+          96,
+          133,
+          155
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "name": "kidney_right",
+      "display_name": "Rim direito",
+      "latin": "Ren dexter",
+      "color": "#ef9d99",
+      "centroid": [
+        120.89816073570572,
+        56.29568172730907,
+        91.74730107956817
+      ],
+      "anchor": [
+        120,
+        56,
+        92
+      ],
+      "volume_ml": 200.1,
+      "faces": 19566,
+      "bounds_voxel": [
+        [
+          102,
+          36,
+          64
+        ],
+        [
+          138,
+          78,
+          119
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "name": "kidney_left",
+      "display_name": "Rim esquerdo",
+      "latin": "Ren sinister",
+      "color": "#e87e93",
+      "centroid": [
+        51.13566237904636,
+        52.06415886216143,
+        98.40896902809622
+      ],
+      "anchor": [
+        52,
+        50,
+        100
+      ],
+      "volume_ml": 205.9,
+      "faces": 19760,
+      "bounds_voxel": [
+        [
+          32,
+          35,
+          71
+        ],
+        [
+          73,
+          73,
+          123
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "name": "aorta",
+      "display_name": "Aorta",
+      "latin": "Aorta",
+      "color": "#e85178",
+      "centroid": [
+        81.77079169201356,
+        66.87707482402016,
+        169.20426696793257
+      ],
+      "anchor": [
+        81,
+        55,
+        165
+      ],
+      "volume_ml": 184.1,
+      "faces": 23816,
+      "bounds_voxel": [
+        [
+          72,
+          42,
+          46
+        ],
+        [
+          94,
+          93,
+          228
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "name": "inferior_vena_cava",
+      "display_name": "Veia cava inferior",
+      "latin": "Vena cava inferior",
+      "color": "#97afe8",
+      "centroid": [
+        95.99518762183236,
+        75.80451998050683,
+        111.62609649122807
+      ],
+      "anchor": [
+        96,
+        76,
+        112
+      ],
+      "volume_ml": 131.3,
+      "faces": 16228,
+      "bounds_voxel": [
+        [
+          82,
+          61,
+          36
+        ],
+        [
+          105,
+          88,
+          176
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "name": "spine",
+      "display_name": "Coluna vertebral",
+      "latin": "Columna vertebralis",
+      "color": "#e7d9be",
+      "centroid": [
+        88.14847018471386,
+        43.57019891421893,
+        126.04636962434597
+      ],
+      "anchor": [
+        88,
+        44,
+        125
+      ],
+      "volume_ml": 732.4,
+      "faces": 40000,
+      "bounds_voxel": [
+        [
+          65,
+          10,
+          10
+        ],
+        [
+          112,
+          75,
+          263
+        ]
+      ]
+    }
+  ],
+  "source": {
+    "url": "https://zenodo.org/records/10047263",
+    "attribution": "TotalSegmentator — Wasserthal et al., University Hospital Basel",
+    "license": "CC BY 4.0"
+  },
+  "selection_criterion": "Seven non-empty masks, none touching superior/inferior scan boundaries; maximum total physical volume.",
+  "overlap_voxels": 0
+}
