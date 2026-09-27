@@ -25,6 +25,14 @@ Abra http://127.0.0.1:3000. Para distribuição, use `npm run build` e `npm star
 
 As regiões pertencem a **três fontes/casos diferentes**. Os módulos inferiores derivam de um exame cadavérico. O app é educacional; não é ferramenta de diagnóstico ou medição clínica. As fichas de estudo não têm revisão médica independente registrada.
 
+## Leve o código para o Codex
+
+**No computador:** [baixe o ZIP com o projeto completo](https://github.com/juliooandradee/anatomy-atlas-educacional/archive/refs/heads/main.zip), extraia e abra a pasta como projeto no Codex. Você também pode usar o `git clone` acima. Cole o texto de [PROMPT.md](PROMPT.md) na tarefa. O texto inclui o endereço deste repositório, mas o Codex deve trabalhar na pasta que você abriu. [Guia oficial de projetos locais do Codex](https://learn.chatgpt.com/docs/projects).
+
+**No Codex pelo navegador:** [faça um fork deste repositório](https://github.com/juliooandradee/anatomy-atlas-educacional/fork), conecte sua conta GitHub ao Codex, selecione o fork para criar um ambiente e cole o mesmo prompt. [Guia oficial do Codex na nuvem](https://learn.chatgpt.com/docs/cloud).
+
+Depois você pode pedir mudanças simples em outra mensagem, por exemplo: “Troque o nome para Atlas da Minha Escola e a cor principal para azul, mantendo a anatomia e as funções.”
+
 ## Personalize com um agente de programação
 
 Copie o [prompt pronto](PROMPT.md) para um agente como Codex. Ele parte deste código e dos arquivos processados, então preserva a lógica e a anatomia da aplicação com muito mais fidelidade que uma instrução para criar tudo do zero. Troque título, ícone, paleta e conteúdo conforme sua identidade. Não use marcas ou emblemas de terceiros.

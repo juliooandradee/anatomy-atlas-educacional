@@ -1,6 +1,6 @@
 # Prompt completo para criar seu Atlas
 
-Copie o texto abaixo e cole em um agente de programação com acesso ao GitHub, ao terminal e ao navegador. Você pode trocar os três campos entre chaves; os valores sugeridos já permitem começar.
+Primeiro abra o código no Codex: [baixe o ZIP](https://github.com/juliooandradee/anatomy-atlas-educacional/archive/refs/heads/main.zip) e abra a pasta como projeto local, ou [faça um fork](https://github.com/juliooandradee/anatomy-atlas-educacional/fork) para usar no Codex pela web. Então copie o texto abaixo e cole na tarefa. Você pode trocar os três campos entre chaves; os valores sugeridos já permitem começar.
 
 ```text
 Aja como uma equipe de engenharia de software, visualização médica 3D, design de interfaces e controle de qualidade. Quero que você CRIE e ENTREGUE uma aplicação executável, com código-fonte completo, a partir do projeto abaixo. Faça as alterações no projeto e teste o resultado; não responda apenas com um plano ou trechos de código.
@@ -11,7 +11,7 @@ Meu projeto:
 - Identidade visual: {CORES E ESTILO: azul ardósia, branco, tipografia legível e visual científico contemporâneo}
 
 BASE OBRIGATÓRIA
-Clone https://github.com/juliooandradee/anatomy-atlas-educacional e leia README.md, PROMPT.md, LICENSE-CODE.md e LICENSE-DATA.md. O repositório já traz o app Next.js, os arquivos anatômicos processados em web/public/data/, os pipelines de origem e os testes. Use essa base real para que a anatomia, as interações e a organização das telas fiquem próximas ao exemplo. Não substitua o projeto por um mockup, imagens estáticas, uma demonstração sem dados ou uma reimplementação superficial.
+Trabalhe no projeto que abri nesta tarefa. Se a pasta ainda estiver vazia, clone https://github.com/juliooandradee/anatomy-atlas-educacional. Leia README.md, PROMPT.md, LICENSE-CODE.md e LICENSE-DATA.md. O repositório já traz o app Next.js, os arquivos anatômicos processados em web/public/data/, os pipelines de origem e os testes. Use essa base real para que a anatomia, as interações e a organização das telas fiquem próximas ao exemplo. Não substitua o projeto por um mockup, imagens estáticas, uma demonstração sem dados ou uma reimplementação superficial.
 
 Faça um inventário curto dos módulos e arquivos existentes. Em seguida, implemente a versão com o nome e a identidade visual que defini. Use Next.js, React, TypeScript, Three.js/React Three Fiber e a estrutura do projeto, preservando os dados e as relações espaciais. Se precisar mudar a arquitetura, justifique a mudança e mantenha todas as funções.
 
@@ -34,7 +34,7 @@ EXECUÇÃO E ACEITE
 Instale as dependências com npm ci dentro de web/. Rode npm test, npm run typecheck e npm run build. Inicie o servidor e abra a aplicação no navegador. Verifique cada uma das seis regiões, a seleção de estruturas reais, o alinhamento entre 3D e três cortes, a troca T1/T2, a janela de TC, o estudo, o quiz, a persistência do progresso e a troca rápida de região. Confira desktop e uma tela móvel; corrija erros de execução, recursos ausentes e transbordamento horizontal. Se alterar o processamento anatômico, execute também os verificadores Python correspondentes.
 
 ENTREGA
-Entregue o projeto completo e executável no repositório, não apenas arquivos isolados ou uma descrição. Informe como abrir localmente, quais arquivos foram alterados e o que cada mudança resolve. Liste os testes que de fato passaram e qualquer limite ainda não verificado. Mostre capturas das telas principais em desktop e celular. Explique como publicar na Vercel usando web como Root Directory, mas só faça o deploy quando eu pedir. Escreva de forma clara para quem está aprendendo: diferencie o que está pronto, o que foi testado e o que ainda exige revisão humana.
+Entregue o projeto completo e executável na minha cópia de trabalho, não apenas arquivos isolados ou uma descrição. Informe como abrir localmente, quais arquivos foram alterados e o que cada mudança resolve. Liste os testes que de fato passaram e qualquer limite ainda não verificado. Mostre capturas das telas principais em desktop e celular. Explique como publicar na Vercel usando web como Root Directory, mas só faça o deploy quando eu pedir. Escreva de forma clara para quem está aprendendo: diferencie o que está pronto, o que foi testado e o que ainda exige revisão humana.
 ```
 
 A base inclui o código e os arquivos processados, por isso o resultado pode ficar muito próximo. A identidade escolhida e a revisão de quem implementa determinam a aparência final.
