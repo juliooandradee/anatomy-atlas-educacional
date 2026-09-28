@@ -25,17 +25,19 @@ Abra http://127.0.0.1:3000. Para distribuição, use `npm run build` e `npm star
 
 As regiões pertencem a **três fontes/casos diferentes**. Os módulos inferiores derivam de um exame cadavérico. O app é educacional; não é ferramenta de diagnóstico ou medição clínica. As fichas de estudo não têm revisão médica independente registrada.
 
-## Leve o código para o Codex
+## Copie o código e comece a produção com IA
 
-**No computador:** [baixe o ZIP com o projeto completo](https://github.com/juliooandradee/anatomy-atlas-educacional/archive/refs/heads/main.zip), extraia e abra a pasta como projeto no Codex. Você também pode usar o `git clone` acima. Cole o texto de [PROMPT.md](PROMPT.md) na tarefa. O texto inclui o endereço deste repositório, mas o Codex deve trabalhar na pasta que você abriu. [Guia oficial de projetos locais do Codex](https://learn.chatgpt.com/docs/projects).
+**ChatGPT:** conecte o GitHub e selecione este repositório para a conversa consultar o código. Cole o texto de [PROMPT.md](PROMPT.md) e peça para começar. A conexão do GitHub no ChatGPT dá acesso de leitura; para alterar e testar o projeto inteiro, use Codex ou Claude Code. [Como conectar o GitHub ao ChatGPT](https://help.openai.com/en/articles/11145903-connecting-github-to-chatgpt).
 
-**No Codex pelo navegador:** [faça um fork deste repositório](https://github.com/juliooandradee/anatomy-atlas-educacional/fork), conecte sua conta GitHub ao Codex, selecione o fork para criar um ambiente e cole o mesmo prompt. [Guia oficial do Codex na nuvem](https://learn.chatgpt.com/docs/cloud).
+**ChatGPT Codex:** [baixe o ZIP com o projeto completo](https://github.com/juliooandradee/anatomy-atlas-educacional/archive/refs/heads/main.zip), extraia e abra a pasta como projeto local. Na versão web, você também pode [fazer um fork](https://github.com/juliooandradee/anatomy-atlas-educacional/fork), conectar o GitHub e selecionar essa cópia como ambiente. Cole o mesmo prompt. [Projetos locais](https://learn.chatgpt.com/docs/projects) · [Codex na nuvem](https://learn.chatgpt.com/docs/cloud).
+
+**Claude Code:** baixe o mesmo ZIP, extraia, abra a pasta do projeto no Claude Code e cole o mesmo prompt. Se preferir o terminal, use `git clone` acima, entre em `anatomy-atlas-educacional` e execute `claude`. [Primeiros passos no Claude Code](https://docs.anthropic.com/en/docs/claude-code/getting-started).
 
 Depois você pode pedir mudanças simples em outra mensagem, por exemplo: “Troque o nome para Atlas da Minha Escola e a cor principal para azul, mantendo a anatomia e as funções.”
 
 ## Personalize com um agente de programação
 
-Copie o [prompt pronto](PROMPT.md) para um agente como Codex. Ele parte deste código e dos arquivos processados, então preserva a lógica e a anatomia da aplicação com muito mais fidelidade que uma instrução para criar tudo do zero. Troque título, ícone, paleta e conteúdo conforme sua identidade. Não use marcas ou emblemas de terceiros.
+Copie o [prompt pronto](PROMPT.md) para um agente de programação que tenha acesso ao projeto. Ele parte deste código e dos arquivos processados, então preserva a lógica e a anatomia da aplicação com muito mais fidelidade que uma instrução para criar tudo do zero. Troque título, ícone, paleta e conteúdo conforme sua identidade. Não use marcas ou emblemas de terceiros.
 
 ## Reproduza os arquivos anatômicos
 

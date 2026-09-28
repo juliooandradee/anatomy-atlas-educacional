@@ -1,9 +1,9 @@
 # Prompt completo para criar seu Atlas
 
-Primeiro abra o código no Codex: [baixe o ZIP](https://github.com/juliooandradee/anatomy-atlas-educacional/archive/refs/heads/main.zip) e abra a pasta como projeto local, ou [faça um fork](https://github.com/juliooandradee/anatomy-atlas-educacional/fork) para usar no Codex pela web. Então copie o texto abaixo e cole na tarefa. Você pode trocar os três campos entre chaves; os valores sugeridos já permitem começar.
+Copie o endereço deste código: https://github.com/juliooandradee/anatomy-atlas-educacional. No Codex ou Claude Code, [baixe o ZIP](https://github.com/juliooandradee/anatomy-atlas-educacional/archive/refs/heads/main.zip), extraia e abra a pasta como projeto; no Codex pela web, você também pode [fazer um fork](https://github.com/juliooandradee/anatomy-atlas-educacional/fork). Depois cole o pedido abaixo. No ChatGPT, conecte o GitHub para consultar o repositório; para editar e testar os arquivos, continue no Codex ou Claude Code. Você pode trocar os três campos entre chaves; os valores sugeridos já permitem começar.
 
 ```text
-Aja como uma equipe de engenharia de software, visualização médica 3D, design de interfaces e controle de qualidade. Quero que você CRIE e ENTREGUE uma aplicação executável, com código-fonte completo, a partir do projeto abaixo. Faça as alterações no projeto e teste o resultado; não responda apenas com um plano ou trechos de código.
+Comece a produção agora. Aja como uma equipe de engenharia de software, visualização médica 3D, design de interfaces e controle de qualidade. Quero que você CRIE e ENTREGUE uma aplicação executável, com código-fonte completo, a partir do projeto abaixo. Faça as alterações no projeto e teste o resultado; não responda apenas com um plano ou trechos de código.
 
 Meu projeto:
 - Nome: {NOME DO PROJETO: Atlas Anatômico Interativo}
