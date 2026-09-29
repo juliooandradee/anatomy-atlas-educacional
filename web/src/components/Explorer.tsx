@@ -174,6 +174,18 @@ export default function Explorer() {
             </span>
           </div>
         </div>
+        <aside className="educational-notice" aria-labelledby="educational-notice-title">
+          <strong id="educational-notice-title">Aviso sobre as imagens</strong>
+          <p>
+            Este Atlas demonstra o que é possível criar para estudar estruturas
+            anatômicas. As regiões usam exames de fontes e pessoas diferentes,
+            que podem conter variações anatômicas ou achados patológicos.
+            Recortes, rótulos e segmentações também podem ter imprecisões. Quem
+            usar ou adaptar o projeto deve conferir cada estrutura e corte
+            conforme sua especialidade e as fontes originais. Não utilizar para
+            diagnóstico, planejamento ou conduta clínica.
+          </p>
+        </aside>
         <nav className="region-nav" aria-label="Regiões anatômicas">
           {regions.map((r) => (
             <button

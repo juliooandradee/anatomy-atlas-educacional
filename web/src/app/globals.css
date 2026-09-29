@@ -147,6 +147,37 @@ main {
   align-items: center;
   margin-bottom: 21px;
 }
+.educational-notice {
+  display: grid;
+  grid-template-columns: minmax(140px, 0.2fr) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+  margin-bottom: 21px;
+  padding: 15px 18px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 10px;
+  background: var(--panel);
+}
+.educational-notice strong {
+  color: var(--accent);
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.educational-notice p {
+  color: var(--text);
+  font-size: 10px;
+  line-height: 1.65;
+}
+@media (max-width: 760px) {
+  .educational-notice {
+    grid-template-columns: 1fr;
+    gap: 5px;
+    padding: 13px 14px;
+  }
+}
 .section-kicker {
   font-size: 9px;
   letter-spacing: 1.25px;
